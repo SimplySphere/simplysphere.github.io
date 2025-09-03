@@ -7,7 +7,7 @@ Welcome to my **Innovator’s Spotlight**!
 
 As an innovator, I am drawn to the challenge of building and exploring the fields of AI, software engineering, game design, robotics, algorithms, 3D design, rocketry, hardware engineering, coding, app and website creation, and 3D printing. I enjoy creating systems, solving problems, and finding connections between ideas. Outside of the technical aspects, I find balance through tennis, music, debate, video essays, fitness, and a lot of food.
 
-<img src="images/in-a-nutshell.png" style="width:90%; display:block; margin:auto;">
+<img src="images/in-a-nutshell.png" style="width:100%; display:block; margin:auto;">
 
 I have been shaped by people who inspire me to grow, the goals I have reached and the ones I have failed, the support of friends, and the hard lessons each failure leaves behind. The late nights of pushing myself, followed by reflection, are where I have learned the most about who I am and who I want to be.
 
