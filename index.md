@@ -1,9 +1,8 @@
 --- 
 layout: home 
-title: "About Me" 
+title: "Hi, I’m Harry" 
 --- 
-# Hi, I’m Harry 
-Welcome to my **Innovator’s Spotlight**!
+# Welcome to my **Innovator’s Spotlight**!
 
 As an innovator, I am drawn to the challenge of building and exploring the fields of AI, software engineering, game design, robotics, algorithms, 3D design, rocketry, hardware engineering, coding, app and website creation, and 3D printing. I enjoy creating systems, solving problems, and finding connections between ideas. Outside of the technical aspects, I find balance through tennis, music, debate, video essays, fitness, and a lot of food.
 
