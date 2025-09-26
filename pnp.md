@@ -13,12 +13,16 @@ For PNP, I designed and produced the sign with its **custom font**, **special pa
 I went through many iterations:
 
 1. **First Print** – Too thin; the locking mechanism didn’t work. I had never 3D-printed anything before this, so this first print introduced me to slicing, print preparation, etc.   
-   <img src="images/pnp-prototype1.png" alt="First Prototype" 
-     style="width:300px; transform: rotate(90deg);">
+   <div style="text-align: center;">
+     <img src="images/pnp-prototype1.png" alt="First Prototype" 
+          style="transform: rotate(270deg)">
+   </div>
 
 3. **Second Print** – Tripled the thickness, but the margins between parts were too small for the lock to slide in.  
-   <img src="images/pnp-prototype2.png" alt="Second Prototype" 
-     style="width:300px; transform: rotate(90deg);">
+   <div style="text-align: center;">
+     <img src="images/pnp-prototype2.png" alt="Second Prototype" 
+          style="transform: rotate(270deg)">
+   </div>
 
 5. **Third Print** – Added custom fonts and adjusted spacing. The mechanism fit but with difficulty, and the text printed poorly on the WEBB logo because of the font's thin lines.  
    ![Third Prototype](images/pnp-prototype3.png)
@@ -55,6 +59,7 @@ With less than 40 minutes before the library closed, I had to **remake the patte
     Your browser does not support the video tag.
   </video>
 </div>
+<p>&nbsp;</p>
 
 <div style="display: flex; gap: 10px; justify-content: center;">
   <figure style="width: 48%; text-align: center; margin: 0;">
@@ -77,7 +82,7 @@ With less than 40 minutes before the library closed, I had to **remake the patte
     <img src="images/pnp-final5.jpeg" alt="Final 5" width="48%">
     <img src="images/pnp-final6.jpeg" alt="Final 6" width="48%">
 </div>
-
+<p style="text-align: center;">Final results with galaxy</p>
 
 
 PNP taught me that design is about **iteration, adaptation, and persistence**. My final locking sign mechanism is a product of every failed prototype and attempt that came before it.
