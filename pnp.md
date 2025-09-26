@@ -51,11 +51,33 @@ With less than 40 minutes before the library closed, I had to **remake the patte
   <source src="images/pnp-printing2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
-![Taking off the supports](images/pnp-final1.jpeg)
-![Holding all of the plates together](images/pnp-final2.jpeg)
-![Final results with white](images/pnp-final3.jpeg)
-![Final results with white](images/pnp-final4.jpeg)
-![Final results with galaxy](images/pnp-final5.jpeg)
-![Final results with galaxy](images/pnp-final6.jpeg)
+
+<div style="display: flex; gap: 10px;">
+  <figure style="width: 48%;">
+    <img src="images/pnp-final1.jpeg" alt="Final 1" width="100%">
+    <figcaption><i>Taking off the supports</i></figcaption>
+  </figure>
+  <figure style="width: 48%;">
+    <img src="images/pnp-final2.jpeg" alt="Final 2" width="100%">
+    <figcaption><i>Holding all the plates at once</i></figcaption>
+  </figure>
+</div>
+
+<figure>
+  <div style="display: flex; gap: 10px;">
+    <img src="images/pnp-final3.jpeg" alt="Final 3" width="48%">
+    <img src="images/pnp-final4.jpeg" alt="Final 4" width="48%">
+  </div>
+  <figcaption>Final results with white</figcaption>
+</figure>
+
+<figure>
+  <div style="display: flex; gap: 10px;">
+    <img src="images/pnp-final5.jpeg" alt="Final 5" width="48%">
+    <img src="images/pnp-final6.jpeg" alt="Final 6" width="48%">
+  </div>
+  <figcaption>Final results with galaxy</figcaption>
+</figure>
+
 
 PNP taught me that design is about **iteration, adaptation, and persistence**. My final locking sign mechanism is a product of every failed prototype and attempt that came before it.
