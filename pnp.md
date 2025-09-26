@@ -15,23 +15,23 @@ I went through many iterations:
 1. **First Print** – Too thin; the locking mechanism didn’t work. I had never 3D-printed anything before this, so this first print introduced me to slicing, print preparation, etc.   
    <div style="text-align: center;">
      <img src="images/pnp-prototype1.png" alt="First Prototype" 
-          style="transform: rotate(-90deg)">
+          style="transform: rotate(-90deg); width="80%">
    </div>
 
 3. **Second Print** – Tripled the thickness, but the margins between parts were too small for the lock to slide in.  
    <div style="text-align: center;">
      <img src="images/pnp-prototype2.png" alt="Second Prototype" 
-          style="transform: rotate(-90deg)">
+          style="transform: rotate(-90deg); width="80%"">
    </div>
 
 5. **Third Print** – Added custom fonts and adjusted spacing. The mechanism fit but with difficulty, and the text printed poorly on the WEBB logo because of the font's thin lines.  
-   ![Third Prototype](images/pnp-prototype3.png)
+   <img src="images/pnp-prototype3.png" alt="Third Prototype width="80%">
 
-6. **Fourth Print** – Locking mechanism worked: I made only a small section a tight fit to reduce friction, but it was strong enough to hold the sign in place. I also fixed the font issues by manually trying the sizes until I found one that did not miss parts of letters after slicing.  
-   ![Fourth Prototype](images/pnp-prototype4.png)
+7. **Fourth Print** – Locking mechanism worked: I made only a small section a tight fit to reduce friction, but it was strong enough to hold the sign in place. I also fixed the font issues by manually trying the sizes until I found one that did not miss parts of letters after slicing.  
+   <img src="images/pnp-prototype4.png" alt="Fourth Prototype width="80%">
 
-7. **Fifth Test** – Verified the mechanism worked across different names and variations.  
-   ![Final Prototype](images/pnp-prototype5.png)
+9. **Fifth Test** – Verified the mechanism worked across different names and variations.  
+   <img src="images/pnp-prototype5.png" alt="Final Prototype width="80%">
 
 In total:  
 - ~13 plate designs and ~8 base designs explored (excluding final versions) 
