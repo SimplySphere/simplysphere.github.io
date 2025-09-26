@@ -43,8 +43,8 @@ With less than 40 minutes before the library closed, I had to **remake the patte
 
 ---
 
-![Walking in as the print is finishing](images/pnp-printing1.mov)
-![About to see the final product](images/pnp-printing2.mov)
+![Walking in as the print is finishing](images/pnp-printing1.mp4)
+![About to see the final product](images/pnp-printing2.mp4)
 ![Taking off the supports](images/pnp-final1.jpeg)
 ![Holding all of the plates together](images/pnp-final2.jpeg)
 ![Final results with white](images/pnp-final3.jpeg)
