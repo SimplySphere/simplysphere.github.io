@@ -15,13 +15,13 @@ I went through many iterations:
 1. **First Print** – Too thin; the locking mechanism didn’t work. I had never 3D-printed anything before this, so this first print introduced me to slicing, print preparation, etc.   
    <div style="text-align: center;">
      <img src="images/pnp-prototype1.png" alt="First Prototype" 
-          style="transform: rotate(270deg)">
+          style="transform: rotate(-90deg)">
    </div>
 
 3. **Second Print** – Tripled the thickness, but the margins between parts were too small for the lock to slide in.  
    <div style="text-align: center;">
      <img src="images/pnp-prototype2.png" alt="Second Prototype" 
-          style="transform: rotate(270deg)">
+          style="transform: rotate(-90deg)">
    </div>
 
 5. **Third Print** – Added custom fonts and adjusted spacing. The mechanism fit but with difficulty, and the text printed poorly on the WEBB logo because of the font's thin lines.  
