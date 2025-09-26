@@ -54,32 +54,27 @@ With less than 40 minutes before the library closed, I had to **remake the patte
   </video>
 </div>
 
-<div style="display: flex; gap: 10px;">
-  <figure style="width: 48%;">
-    <img src="images/pnp-final1.jpeg" alt="Final 1" width="100%">
-    <figcaption><i>Taking off the supports</i></figcaption>
+<div style="display: flex; gap: 10px; justify-content: center;">
+  <figure style="width: 48%; text-align: center; margin: 0;">
+    <img src="images/pnp-prototype1.png" alt="Prototype 1" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 6px;"><i>Thin first design</i></figcaption>
   </figure>
-  <figure style="width: 48%;">
-    <img src="images/pnp-final2.jpeg" alt="Final 2" width="100%">
-    <figcaption><i>Holding all the plates at once</i></figcaption>
+  <figure style="width: 48%; text-align: center; margin: 0;">
+    <img src="images/pnp-prototype2.png" alt="Prototype 2" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 6px;"><i>Thicker second design</i></figcaption>
   </figure>
 </div>
 
-<figure>
-  <div style="display: flex; gap: 10px;">
+<div style="display: flex; gap: 10px;">
     <img src="images/pnp-final3.jpeg" alt="Final 3" width="48%">
     <img src="images/pnp-final4.jpeg" alt="Final 4" width="48%">
-  </div>
-  <figcaption>Final results with white</figcaption>
-</figure>
+</div>
+<p style="text-align: center;">Final results with white</p>
 
-<figure>
-  <div style="display: flex; gap: 10px;">
+<div style="display: flex; gap: 10px;">
     <img src="images/pnp-final5.jpeg" alt="Final 5" width="48%">
     <img src="images/pnp-final6.jpeg" alt="Final 6" width="48%">
-  </div>
-  <figcaption>Final results with galaxy</figcaption>
-</figure>
+</div>
 
 
 PNP taught me that design is about **iteration, adaptation, and persistence**. My final locking sign mechanism is a product of every failed prototype and attempt that came before it.
