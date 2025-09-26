@@ -43,14 +43,16 @@ With less than 40 minutes before the library closed, I had to **remake the patte
 
 ---
 
-<video width="100%" controls>
-  <source src="images/pnp-printing1.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
-<video width="100%" controls>
-  <source src="images/pnp-printing2.mp4" type="video/mp4">
-  Your browser does not support the video tag.
-</video>
+<div style="display: flex; gap: 10px;">
+  <video width="48%" controls>
+    <source src="images/pnp-printing1.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <video width="48%" controls>
+    <source src="images/pnp-printing2.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
 
 <div style="display: flex; gap: 10px;">
   <figure style="width: 48%;">
