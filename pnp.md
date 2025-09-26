@@ -56,12 +56,12 @@ With less than 40 minutes before the library closed, I had to **remake the patte
 
 <div style="display: flex; gap: 10px; justify-content: center;">
   <figure style="width: 48%; text-align: center; margin: 0;">
-    <img src="images/pnp-prototype1.png" alt="Prototype 1" style="width: 100%; border-radius: 8px;">
-    <figcaption style="margin-top: 6px;"><i>Thin first design</i></figcaption>
+    <img src="images/pnp-final1.png" alt="" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 6px;"><i>Taking off supports</i></figcaption>
   </figure>
   <figure style="width: 48%; text-align: center; margin: 0;">
-    <img src="images/pnp-prototype2.png" alt="Prototype 2" style="width: 100%; border-radius: 8px;">
-    <figcaption style="margin-top: 6px;"><i>Thicker second design</i></figcaption>
+    <img src="images/pnp-final2.png" alt="" style="width: 100%; border-radius: 8px;">
+    <figcaption style="margin-top: 6px;"><i>Holding all at once</i></figcaption>
   </figure>
 </div>
 
