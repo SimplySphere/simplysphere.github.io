@@ -13,18 +13,20 @@ For PNP, I designed and produced the sign with its **custom font**, **special pa
 I went through many iterations:
 
 1. **First Print** – Too thin; the locking mechanism didn’t work. I had never 3D-printed anything before this, so this first print introduced me to slicing, print preparation, etc.   
-   ![First Prototype](images/pnp-prototype1.png)
+   <img src="images/pnp-prototype1.png" alt="First Prototype" 
+     style="width:300px; transform: rotate(90deg);">
 
-2. **Second Print** – Tripled the thickness, but the margins between parts were too small for the lock to slide in.  
-   ![Second Prototype](images/pnp-prototype2.png)
+3. **Second Print** – Tripled the thickness, but the margins between parts were too small for the lock to slide in.  
+   <img src="images/pnp-prototype2.png" alt="Second Prototype" 
+     style="width:300px; transform: rotate(90deg);">
 
-3. **Third Print** – Added custom fonts and adjusted spacing. The mechanism fit but with difficulty, and the text printed poorly on the WEBB logo because of the font's thin lines.  
+5. **Third Print** – Added custom fonts and adjusted spacing. The mechanism fit but with difficulty, and the text printed poorly on the WEBB logo because of the font's thin lines.  
    ![Third Prototype](images/pnp-prototype3.png)
 
-4. **Fourth Print** – Locking mechanism worked: I made only a small section a tight fit to reduce friction, but it was strong enough to hold the sign in place. I also fixed the font issues by manually trying the sizes until I found one that did not miss parts of letters after slicing.  
+6. **Fourth Print** – Locking mechanism worked: I made only a small section a tight fit to reduce friction, but it was strong enough to hold the sign in place. I also fixed the font issues by manually trying the sizes until I found one that did not miss parts of letters after slicing.  
    ![Fourth Prototype](images/pnp-prototype4.png)
 
-5. **Fifth Test** – Verified the mechanism worked across different names and variations.  
+7. **Fifth Test** – Verified the mechanism worked across different names and variations.  
    ![Final Prototype](images/pnp-prototype5.png)
 
 In total:  
