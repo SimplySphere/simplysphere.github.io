@@ -183,19 +183,19 @@ function showSlides(n) {
 
 
 ## Creative Process
- 1. Brainstorming: Started with only the certainty that the project would use VR in some way. Dr. Dzula inspired me to make something that would immerse you, showing a model or object. 
- 2. Choosing a platform: I knew that to make something like that, you needed a design platform. I began with SimLab, which I managed to run on the headset. However, the limit of 5 uploads, movement issues, and a corrupted final file led me to discard the idea.
+1) Brainstorming: Started with only the certainty that the project would use VR in some way. Dr. Dzula inspired me to make something that would immerse you, showing a model or object. 
+2) Choosing a platform: I knew that to make something like that, you needed a design platform. I began with SimLab, which I managed to run on the headset. However, the limit of 5 uploads, movement issues, and a corrupted final file led me to discard the idea.
 <div style="display: flex; gap: 10px;">
     <img src="images/simlab.png" alt="SimLab Logo" width="38%">
     <img src="images/simlabdemo.jpg" alt="SimLab demo" width="58%">
 </div>
- 3. Starting over: After that setback, I decided to start from scratch. After surveying my options, I moved to Unity, a pursuit started thanks to a suggestion from Thomas.
+3) Starting over: After that setback, I decided to start from scratch. After surveying my options, I moved to Unity, a pursuit started thanks to a suggestion from Thomas.
 <img src="images/unity.png" alt="Unity Logo">
- 4. Learning Unity basics: At first, I had to figure out Unity’s 2D vs 3D views along with every other feature. I also got stuck for an hour because I did not realize that scrolling out resized the scene view to full screen, and I did not know that scrolling in would reset it. After many hours, I started to settle into the software
+4) Learning Unity basics: At first, I had to figure out Unity’s 2D vs 3D views along with every other feature. I also got stuck for an hour because I did not realize that scrolling out resized the scene view to full screen, and I did not know that scrolling in would reset it. After many hours, I started to settle into the software
 <img src="images/unitybasics.png" alt="Unity">
- 5. Building the environment: I used PNP as a reference for modeling and lighting. I added movement and turning systems after several trial-and-error attempts, finally achieving freedom of viewing and navigation after many hours.
+5) Building the environment: I used PNP as a reference for modeling and lighting. I added movement and turning systems after several trial-and-error attempts, finally achieving freedom of viewing and navigation after many hours.
 <img src="images/unitypnp.png" alt="Unity + PNP">
- 6. Adding detail: I added a skybox to bring life to the scene. I then imported a collection of random models that would work inside Unity to give a bit of diversity to the scene. For each model, I had to add its textures. This sounds easy, but the learning curve was steep, and some models had a lot of textures, each of which I had to sort through and find its corresponding box. For one, I had to assign 91 textures to their correct part. 
+6) Adding detail: I added a skybox to bring life to the scene. I then imported a collection of random models that would work inside Unity to give a bit of diversity to the scene. For each model, I had to add its textures. This sounds easy, but the learning curve was steep, and some models had a lot of textures, each of which I had to sort through and find its corresponding box. For one, I had to assign 91 textures to their correct part. 
 <div style="display: flex; gap: 10px;">
     <img src="images/unitymodel1.png" alt="Unity Models 1" width="48%">
     <img src="images/unitymodel2.png" alt="Unity Models 2" width="48%">
@@ -204,22 +204,21 @@ function showSlides(n) {
     <img src="images/unitymodel3.png" alt="Unity Models 3" width="48%">
     <img src="images/unitymodel4.png" alt="Unity Models 4" width="48%">
 </div>
- 7. Transitioning to VR controls: I switched all the standard controls to VR-based inputs, sorting through countless messy prefabs and folders until I got the controller reacting properly.
+7) Transitioning to VR controls: I switched all the standard controls to VR-based inputs, sorting through countless messy prefabs and folders until I got the controller reacting properly.
 <img src="images/unityprefabs.png" alt="Unity + Mess">
- 8. Testing with the XR Simulator: I used the XR Interaction Simulator to test motion and interaction inside the editor before headset deployment.
+8) Testing with the XR Simulator: I used the XR Interaction Simulator to test motion and interaction inside the editor before headset deployment.
 <div style="text-align: center; margin: 10px 0;">
   <video width="90%" controls autoplay muted loop style="border-radius: 10px;">
     <source src="images/unityvrsimulator.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
- 9. Platform challenges: I faced compatibility issues as I tried to connect the two. The Meta Quest Pros support Android and Windows, but I was building on a MacBook, which required me to make many adjustments and find methods to export properly.
+9) Platform challenges: I faced compatibility issues as I tried to connect the two. The Meta Quest Pros support Android and Windows, but I was building on a MacBook, which required me to make many adjustments and find methods to export properly.
 <img src="images/unityplatforms.png" alt="Unity Platforms">
- 10. Final build: After resolving input handling, platforms, and model conflicts, I successfully compiled the project into an .apk file, a small representation of the larger whole of my VR world and experience.
+10) Final build: After resolving input handling, platforms, and model conflicts, I successfully compiled the project into an .apk file, a small representation of the larger whole of my VR world and experience.
 <img src="images/unityapk.png" alt="Unity APK">
- 11. Testing: Trying out and confirming the VR works after connecting it to bring the results below. 
-
-## Results 
 
 
 ## Reflection
+This process taught me quite thoroughly the importance of **patience** when working with more complex tools like Unity or Meta Quest Pro. I noticed that each setback would eventually force me to slow down first to problem-solve and analyze the issues. Additionally, this patience has to be hand-in-hand with a level of persistence that allows you to see results. I know if I had not slowed down and taken the process in, I would have probably flubbed longer, rushing the process. My takeaway is that progress in **innovation comes from tenacious calmness**. 
+
