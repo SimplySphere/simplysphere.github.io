@@ -197,12 +197,12 @@ function showSlides(n) {
 <img src="images/unitypnp.png" alt="Unity + PNP">
 6. Adding detail: I added a skybox to bring life to the scene. I then imported a collection of random models that would work inside Unity to give a bit of diversity to the scene. For each model, I had to add its textures. This sounds easy, but the learning curve was steep, and some models had a lot of textures, each of which I had to sort through and find its corresponding box. For one, I had to assign 91 textures to their correct part. 
 <div style="display: flex; gap: 10px;">
-    <img src="images/unitymodels1.png" alt="Unity Models 1" width="48%">
-    <img src="images/unitymodels2.jpg" alt="Unity Models 2" width="48%">
+    <img src="images/unitymodel1.png" alt="Unity Models 1" width="48%">
+    <img src="images/unitymodel2.png" alt="Unity Models 2" width="48%">
 </div>
 <div style="display: flex; gap: 10px;">
-    <img src="images/unitymodels3.png" alt="Unity Models 3" width="48%">
-    <img src="images/unitymodels4.jpg" alt="Unity Models 4" width="48%">
+    <img src="images/unitymodel3.png" alt="Unity Models 3" width="48%">
+    <img src="images/unitymodel4.png" alt="Unity Models 4" width="48%">
 </div>
 7. Transitioning to VR controls: I switched all the standard controls to VR-based inputs, sorting through countless messy prefabs and folders until I got the controller reacting properly.
 <img src="images/unityprefabs.png" alt="Unity + Mess">
