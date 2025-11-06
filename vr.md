@@ -65,14 +65,14 @@ To show off the capabilities of VR inside our school, I built a scene on **Unity
     <video width="100%" controls autoplay muted loop>
       <source src="images/vr11.mp4" type="video/mp4">
     </video>
-    <p class="caption">Basically, it turned VR into a full-on mixed-reality platform. This is the Meta Quest Pro promotion video.</p>
+    <p class="caption">Basically, it turned VR into a full-on mixed-reality platform. This is the Meta Quest Pro promotion video. VR is a very important technology today because it connects people and ideas in new ways.</p>
   </div>
 
   <div class="slide fade">
     <video width="100%" controls autoplay muted loop>
       <source src="images/vr12.mp4" type="video/mp4">
     </video>
-    <p class="caption">Testing the XR Simulator inside Unity</p>
+    <p class="caption">Examples are doctors practicing surgeries, engineers testing designs, students exploring anywhere in the world, veterans with PTSD being able to go through therapy by visiting the place in VR. In essence, it reduces distance and builds understanding. From the first stereoscope or idea in some novel to now, the Meta Quest Pro in our Webb library, VR has come quite a long way.</p>
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
