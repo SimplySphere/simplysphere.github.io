@@ -7,11 +7,174 @@ layout: default
 
 To show off the capabilities of VR inside our school, I built a scene on **Unity** and connected it to the **Meta Quest Pros**, creating an experience that allows the user to **move around and view models**. This project made me master a new software I had never used before, fight the limits of Macbook and Windows, and troubleshoot the fickle VR headsets. I expanded on my patience and willingness to explore deeper into topics more foreign to me. 
 
-
-## History
-
 ## Overview
 
+
+## History and Impact
+<div class="slideshow-container">
+
+  <div class="slide fade">
+    <img src="images/vr1.png" style="width:100%">
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr2.png" style="width:100%">
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr3.png" style="width:100%">
+    <p class="caption">VR, like any other technology, began as an idea. The first kind of invention was the stereoscope, which created the first 3D illusion using two images. Then, works like Pygmalion's spectacles foresaw goggles that could take people to other worlds. Soon, devices began to do something along those lines on a very basic level.</p>
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr4.png" style="width:100%">
+    <p class="caption">In the 1960s and 70s, VR became a real research field originating in military and science uses similar to the inventions from the space race. Ivan Sutherland’s “Ultimate Display” and the Sword of Damocles created the first computer-linked headsets
+The military used simulators to train pilots safely. Artists like Myron Krueger experimented with interactive rooms that reacted to movement.</p>
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr5.png" style="width:100%">
+    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr6.png" style="width:100%">
+    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr7.png" style="width:100%">
+    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr8.png" style="width:100%">
+    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr9.png" style="width:100%">
+    <p class="caption">Final VR build exported to Meta Quest Pro</p>
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr10.png" style="width:100%">
+    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr11.png" style="width:100%">
+    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+  </div>
+
+  <div class="slide fade">
+    <img src="images/vr12.png" style="width:100%">
+    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+  </div>
+
+  <div class="slide fade">
+    <video width="100%" controls autoplay muted loop>
+      <source src="videos/demo.mp4" type="video/mp4">
+    </video>
+    <p class="caption">Testing the XR Simulator inside Unity</p>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
+</div>
+
+<style>
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+.slide {display: none;}
+img, video {border-radius: 10px;}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {right: 0;border-radius: 3px 0 0 3px;}
+.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);}
+.caption {
+  color: #ddd;
+  font-size: 16px;
+  padding: 8px 12px;
+  text-align: center;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {background-color: #717171;}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.2s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) { showSlides(slideIndex += n); }
+function currentSlide(n) { showSlides(slideIndex = n); }
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
 
 ## Creative Process
 1. Brainstorming: Started with only the certainty that the project would use VR in some way. I was inspired by Dr. Dzula to make something that would immerse you, showing a model or object. 
