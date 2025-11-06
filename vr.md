@@ -186,8 +186,8 @@ function showSlides(n) {
 1. Brainstorming: Started with only the certainty that the project would use VR in some way. Dr. Dzula inspired me to make something that would immerse you, showing a model or object. 
 2. Choosing a platform: I knew that to make something like that, you needed a design platform. I began with SimLab, which I managed to run on the headset. However, the limit of 5 uploads, movement issues, and a corrupted final file led me to discard the idea.
 <div style="display: flex; gap: 10px;">
-    <img src="images/simlab.png" alt="SimLab Logo" width="28%">
-    <img src="images/simlabdemo.jpg" alt="SimLab demo" width="68%">
+    <img src="images/simlab.png" alt="SimLab Logo" width="38%">
+    <img src="images/simlabdemo.jpg" alt="SimLab demo" width="58%">
 </div>
 3. Starting over: After that setback, I decided to start from scratch. After surveying my options, I moved to Unity, a pursuit started thanks to a suggestion from Thomas.
 <img src="images/unity.png" alt="Unity Logo">
@@ -207,8 +207,13 @@ function showSlides(n) {
 7. Transitioning to VR controls: I switched all the standard controls to VR-based inputs, sorting through countless messy prefabs and folders until I got the controller reacting properly.
 <img src="images/unityprefabs.png" alt="Unity + Mess">
 8. Testing with the XR Simulator: I used the XR Interaction Simulator to test motion and interaction inside the editor before headset deployment.
-<img src="images/unityvrsimulator.png" alt="Unity VR Simulator">
-9. Platform challenges: I faced compatibility issues as I tried to connect the two. The Meta Questo Pros support Android and Windows, but I was building on a MacBook, which required me to make many adjustments and find methods to export properly.
+<div style="text-align: center; margin: 10px 0;">
+  <video width="90%" controls autoplay muted loop style="border-radius: 10px;">
+    <source src="images/unityvrsimulator.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+</div>
+9. Platform challenges: I faced compatibility issues as I tried to connect the two. The Meta Quest Pros support Android and Windows, but I was building on a MacBook, which required me to make many adjustments and find methods to export properly.
 <img src="images/unityplatforms.png" alt="Unity Platforms">
 10. Final build: After resolving input handling, platforms, and model conflicts, I successfully compiled the project into an .apk file, a small representation of the larger whole of my VR world and experience.
 <img src="images/unityapk.png" alt="Unity APK">
