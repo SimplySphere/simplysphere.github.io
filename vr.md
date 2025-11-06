@@ -28,53 +28,49 @@ To show off the capabilities of VR inside our school, I built a scene on **Unity
 
   <div class="slide fade">
     <img src="images/vr4.png" style="width:100%">
-    <p class="caption">In the 1960s and 70s, VR became a real research field originating in military and science uses similar to the inventions from the space race. Ivan Sutherland’s “Ultimate Display” and the Sword of Damocles created the first computer-linked headsets
-The military used simulators to train pilots safely. Artists like Myron Krueger experimented with interactive rooms that reacted to movement.</p>
+    <p class="caption">In the 1960s and 70s, VR became a real research field, originating in military and scientific applications similar to the inventions of the space race. Ivan Sutherland’s “Ultimate Display” and the Sword of Damocles created the first computer-linked headsets.</p>
   </div>
 
   <div class="slide fade">
     <img src="images/vr5.png" style="width:100%">
-    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+    <p class="caption">The military used simulators to train pilots safely. Artists like Myron Krueger experimented with interactive rooms that reacted to movement.</p>
   </div>
 
   <div class="slide fade">
     <img src="images/vr6.png" style="width:100%">
-    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+    <p class="caption">Like all technologies, VR began to be commercialized. In the 80s and 90s, VR became public. The tech was expensive and not very advanced.</p>
   </div>
 
   <div class="slide fade">
     <img src="images/vr7.png" style="width:100%">
-    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+    <p class="caption">Soon, by the 2000s, projects like Google Street View began to find practical uses for VR. In the case of VR, it was more created as an innovative piece of technology itself rather than to solve a specific problem.</p>
   </div>
 
   <div class="slide fade">
     <img src="images/vr8.png" style="width:100%">
-    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+    <p class="caption">Soon, VR began to really develop with Oculus, which Facebook acquired, and then different productions. Anyways, 2022 rolls with the Meta Quest Pros.</p>
   </div>
 
   <div class="slide fade">
     <img src="images/vr9.png" style="width:100%">
-    <p class="caption">Final VR build exported to Meta Quest Pro</p>
+    <p class="caption">There is more advanced stuff past 2022, but the focus will be on the Quest Pros because they are what we have at Webb.</p>
   </div>
 
   <div class="slide fade">
     <img src="images/vr10.png" style="width:100%">
-    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
-  </div>
-
-  <div class="slide fade">
-    <img src="images/vr11.png" style="width:100%">
-    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
-  </div>
-
-  <div class="slide fade">
-    <img src="images/vr12.png" style="width:100%">
-    <p class="caption">Learning Unity basics: switching between 2D and 3D views</p>
+    <p class="caption">The Quest Pro was not just faster. It fundamentally changed what VR could do. It used dual Mini-LED screens, better lenses, eye and face tracking, and full-color passthrough. You could see the world while still in VR.</p>
   </div>
 
   <div class="slide fade">
     <video width="100%" controls autoplay muted loop>
-      <source src="videos/demo.mp4" type="video/mp4">
+      <source src="images/vr11.mp4" type="video/mp4">
+    </video>
+    <p class="caption">Basically, it turned VR into a full-on mixed-reality platform. This is the Meta Quest Pro promotion video.</p>
+  </div>
+
+  <div class="slide fade">
+    <video width="100%" controls autoplay muted loop>
+      <source src="images/vr12.mp4" type="video/mp4">
     </video>
     <p class="caption">Testing the XR Simulator inside Unity</p>
   </div>
@@ -116,17 +112,20 @@ img, video {border-radius: 10px;}
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: black;
   font-weight: bold;
   font-size: 18px;
-  transition: 0.6s ease;
+  transition: 0.3s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
 }
 .next {right: 0;border-radius: 3px 0 0 3px;}
-.prev:hover, .next:hover {background-color: rgba(0,0,0,0.8);}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.05);
+  color: black;
+}
 .caption {
-  color: #ddd;
+  color: black;
   font-size: 16px;
   padding: 8px 12px;
   text-align: center;
@@ -136,12 +135,12 @@ img, video {border-radius: 10px;}
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #ccc;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease;
 }
-.active, .dot:hover {background-color: #717171;}
+.active, .dot:hover {background-color: #555;}
 .fade {
   animation-name: fade;
   animation-duration: 1.2s;
