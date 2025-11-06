@@ -7,12 +7,14 @@ layout: default
 
 To show off the capabilities of VR inside our school, I built a scene on **Unity** and connected it to the **Meta Quest Pros**, creating an experience that allows the user to **move around and view models**. This project made me master a new software I had never used before, fight the limits of Macbook and Windows, and troubleshoot the fickle VR headsets. I expanded on my patience and willingness to explore deeper into topics more foreign to me. 
 
+
 ## Overview
 **Virtual Reality (VR)** is a technology that **immerses users in a simulated environment**, allowing them to experience digital spaces as if they were physically there. Using headsets equipped with motion sensors and stereoscopic displays, VR tracks the user’s head and hand movements to render a 3D environment where the user can interact and play around with its contents.
 
 Inside the library lie the Meta Quest Pros. It leverages high-resolution visuals, advanced tracking, and controller input to create a realistic experience for users. The Quest Pro’s capabilities include full-color passthrough, spatial mapping, and precise gesture recognition built for design, collaboration, and learning.
 
 The impact of VR is that it **reshapes how people visualize data and connect across distances**. VR allows learners and creators to **turn their abstract ideas into experiences of tangible space and interaction**.
+
 
 ## History and Impact
 <div class="slideshow-container">
@@ -179,6 +181,7 @@ function showSlides(n) {
 }
 </script>
 
+
 ## Creative Process
 1. Brainstorming: Started with only the certainty that the project would use VR in some way. Dr. Dzula inspired me to make something that would immerse you, showing a model or object. 
 2. Choosing a platform: I knew that to make something like that, you needed a design platform. I began with SimLab, which I managed to run on the headset. However, the limit of 5 uploads, movement issues, and a corrupted final file led me to discard the idea.
@@ -187,6 +190,7 @@ function showSlides(n) {
     <img src="images/simlabdemo.jpg" alt="SimLab demo" width="68%">
 </div>
 3. Starting over: After that setback, I decided to start from scratch. After surveying my options, I moved to Unity, a pursuit started thanks to a suggestion from Thomas.
+<img src="images/unity.png" alt="Unity Logo">
 4. Learning Unity basics: At first, I had to figure out Unity’s 2D vs 3D views along with every other feature. I also got stuck for an hour because I did not realize that scrolling out resized the scene view to full screen, and I did not know that scrolling in would reset it. After many hours, I started to settle into the software
 <img src="images/unitybasics.png" alt="Unity">
 5. Building the environment: I used PNP as a reference for modeling and lighting. I added movement and turning systems after several trial-and-error attempts, finally achieving freedom of viewing and navigation after many hours.
