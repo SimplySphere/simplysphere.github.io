@@ -32,8 +32,8 @@ Objective: Create a **3D scanner** that uses **Sharp GP2Y0A21YK0F analog IR dist
 5. Open Arduino IDE
 6. Create code
 7. Test and observe
+   
 <img src="images/scanner-setup.jpeg">
-
 <img src="images/scanner-full.jpeg">
 
 
