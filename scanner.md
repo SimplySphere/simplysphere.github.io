@@ -19,9 +19,14 @@ Objective: Create a **3D scanner** that uses **Sharp GP2Y0A21YK0F analog IR dist
 - USB cable
 - Measuring tape
 - Desmos
+<div style="display: flex; gap: 10px;">
+    <img src="images/scanner-materials.png" width="48%">
+    <img src="images/scanner-box.HEIC" width="48%">
+</div>
 
 ## Step-by-Step Process
-
+<img src="images/scanner-setup.png">
+<img src="images/scanner-full.png">
 
 ## Problems + Solutions
 - **Unstable wires**: Our first problem was that the sensor wires kept popping or dropping out of the breadboard. We were not tugging or handling it with abandon, but they kept falling off, causing inconsistent readings. We fixed this by being extra careful when handling the setup, making sure all connections were secure. This helped make the data much more reliable.
