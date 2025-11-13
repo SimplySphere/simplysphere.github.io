@@ -30,16 +30,17 @@ Objective: Create a **3D scanner** that uses **Sharp GP2Y0A21YK0F analog IR dist
 3. Power rails on the breadboard
 4. Plug in the sensor, making sure the colors match
 5. Open Arduino IDE
-6. Create code
-7. Test and observe
+6. Create code to read voltage
+7. Use graph in documentation to convert voltage to distance
+8. Test and observe
    
 <img src="images/scanner-setup.jpeg">
 <img src="images/scanner-full.jpeg">
 
 
 ## Problems + Solutions
-- **Unstable wires**: Our first problem was that the sensor wires kept popping or dropping out of the breadboard. We were not tugging or handling it with abandon, but they kept falling off, causing inconsistent readings. We fixed this by being extra careful when handling the setup, making sure all connections were secure. This helped make the data much more reliable.
-- **Flipped equation**: The second problem was that we accidentally flipped our equation when inputting values into Desmos for a power regression. We were converting distance to voltage instead of voltage to distance. I realized the mistake when I looked at the graph on the provided website while thinking about inverse functions, which Mr. Raus mentioned a minute before. Catching that error helped us correct the voltage response to get accurate distance. 
+- **Unstable wires**: Our first problem was that the sensor wires kept popping out of the breadboard. We were not tugging or handling it with abandon, but they kept falling off, causing inconsistent readings. We fixed this by being extra careful when handling the setup, making sure all connections were secure. This helped make the data much more reliable.
+- **Flipped equation**: The second problem was that we accidentally reversed our equation when inputting values into Desmos for a power regression. We were converting distance to voltage instead of voltage to distance. I realized the mistake when I looked at the graph on the provided website while thinking about inverse functions, which Mr. Raus mentioned a minute before. Catching that error helped us correct the voltage response to get accurate distance. 
 
 
 ## Main Takeaways
@@ -49,4 +50,4 @@ Objective: Create a **3D scanner** that uses **Sharp GP2Y0A21YK0F analog IR dist
 
 
 ## Reflection
-At the start, I felt nervous, not just because I was trying something new but because I had been wanting to work with Arduino and hardware for a while but never actually started. So when the unit was announced, I was unsure what I would be able to do or hwo well I would understand everything. As I made progress, I started to feel a shift in feeling from nervousness to mroe curiousity with the confidence to try and explore the concepts, rather than overestimate and shy away from them. I began to draw parallels between hardware and software, realizing the same intrinsic skills like problem-solving or decomposition apply here too. With these parallels, I began to grow more comfortable, learning to approach this new process with patience and a willingness to experiment. I know there is still a lot more to learn, but I think my biggest change has been my ability to feel justified in asking and learning about this topic. This experience connects to my broader journey of discovery within the field of engineering I am drawn to. Seeing it from a new angle academically with the new knowledge and ability but also personally by reinforcing my belief in strengthening my ability to adapt and learn with new ideas, building new connections like what I have been pracitcing in class these past few classes. 
+At the start, I felt nervous, not just because I was trying something new but because I had been wanting to work with Arduino and hardware for a while but never actually started. So when the unit was announced, I was unsure what I would be able to do or how well I would understand everything. As I made progress, I started to feel a shift in feeling from nervousness to more curiousity with the confidence to try and explore the concepts, rather than overestimate and shy away from them. I began to draw parallels between hardware and software, realizing the same intrinsic skills like problem-solving or decomposition apply here too. With these parallels, I began to grow more comfortable, learning to approach this new process with patience and a willingness to experiment. I know there is still a lot more to learn, but I think my biggest change has been my ability to feel justified in asking and learning about this topic. This experience connects to my broader journey of discovery within the field of engineering I am drawn to. Seeing it from a new angle academically with the new knowledge and ability but also personally by reinforcing my belief in strengthening my ability to adapt and learn with new ideas, building new connections like what I have been pracitcing in class these past few classes. 
