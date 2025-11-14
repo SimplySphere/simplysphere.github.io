@@ -31,9 +31,8 @@ Objective: Create a **3D scanner** that uses **Sharp GP2Y0A21YK0F analog IR dist
 4. Plug in the sensor, making sure the colors match (refer to setup image below for clarity)
 5. Open Arduino IDE (download here: https://www.arduino.cc/en/software/)
 6. Create code to read voltage (documentation available here: https://docs.arduino.cc/language-reference/en/functions/analog-io/analogRead/)
-7. Use graph in scanner documentation to convert voltage to distance (graph found here: https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf) 
-   a. Use desmos to plot estimates to convert from voltage to distance
-8. Test and observe
+7. Use graph in scanner documentation to convert voltage to distance using desmos by plotting estimates on a table from performing a power regression (desmos: https://www.desmos.com/calculator; graph found here: https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf) 
+9. Test and observe
    
 <img src="images/scanner-setup.jpeg">
 <img src="images/scanner-full.jpeg">
