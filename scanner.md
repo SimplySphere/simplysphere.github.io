@@ -25,13 +25,14 @@ Objective: Create a **3D scanner** that uses **Sharp GP2Y0A21YK0F analog IR dist
 
 
 ## Step-by-Step Process
-1. Gather materials
-2. Connect the cable into Arduino and computer
-3. Power rails on the breadboard
-4. Plug in the sensor, making sure the colors match
-5. Open Arduino IDE
-6. Create code to read voltage
-7. Use graph in documentation to convert voltage to distance
+1. Gather all materials (refer back to Materials section if needed)
+2. Connect the cable into Arduino and computer (use USB-C hub if needed)
+3. Insert wires onto seperate rails on the breadboard
+4. Plug in the sensor, making sure the colors match (refer to setup image below for clarity)
+5. Open Arduino IDE (download here: https://www.arduino.cc/en/software/)
+6. Create code to read voltage (documentation available here: https://docs.arduino.cc/language-reference/en/functions/analog-io/analogRead/)
+7. Use graph in scanner documentation to convert voltage to distance (graph found here: https://global.sharp/products/device/lineup/data/pdf/datasheet/gp2y0a21yk_e.pdf) 
+   a. Use desmos to plot estimates to convert from voltage to distance
 8. Test and observe
    
 <img src="images/scanner-setup.jpeg">
