@@ -1,5 +1,5 @@
 ---
-title: Spherical Two-Axis Dual-Stepper Scanner Gimbal
+title: Dual-Stepper Scanner Gimbal
 layout: default
 ---
 
