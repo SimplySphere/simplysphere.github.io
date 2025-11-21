@@ -52,7 +52,7 @@ Download .fbx or .f3d here
 - **Finding leeway** finding the extra space to give the shaft so that it maximizes friction while also allowing the shaft into itself without a big struggle; leveraged the d shaped shaft to be a better fit (now fit is directional); initally was too tight at 0.10mm, was still too much at 0.15mm finally last designw as 2.5mm of offset, which worked
 
 <img src="images/stepper-analysis1.png">
-<img src="images/stepper-canalysis2.png">
+<img src="images/stepper-analysis2.png">
 
 ## Main Takeaways  
 - **Mechanical design is iterative**, almost every part needed multiple revisions as new constraints appeared: i had to change the offset of the shaft holders 3 times, the length of the vertical holder was too short, the base was too short, the container for the bottom servo was too tight, the length was miscalcualted for the horizontal servo holder, the jut-out was miscalculated so did not fit, the space for wires inside the base and ball was too little, the first print of everything melded together, the printer ran out of filament for a complete print that happened overnight, the axis ball and stick failed to print 2 times due to weaker support from the bottom and a heavy head, the ball itself was underestimated two times during cading process, the servo height was underestimated until finally measured, the printer spagetti-ified on the final print (shoutout henry for saving this project as a heroic passerby who restarted the print), the model was without smooth edges for two iterations, etc. these are problems that would have never been solved if not for revisions, each of them enough to break the project
