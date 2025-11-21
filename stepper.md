@@ -49,8 +49,8 @@ Download .fbx or .f3d here
 - **Finding dimensions**: finding reference sheet - nemo 17 had to research myself to find -- found a chinese reference using diagrams i got the numbers, still missing height of motor base and jut-out for cable -- had to measure myself; still needed those for the scanner so i reached out ot patrick to ask for it because i did not know them and he had just measured them before me
 - **Finding leeway** finding the extra space to give the shaft so that it maximizes friction while also allowing the shaft into itself without a big struggle; leveraged the d shaped shaft to be a better fit (now fit is directional); initally was too tight at 0.10mm, was still too much at 0.15mm finally last designw as 2.5mm of offset, which worked
 
-<img src="images/stepper-analysis1.jpg">
-<img src="images/stepper-canalysis2.jpg">
+<img src="images/stepper-analysis1.png">
+<img src="images/stepper-canalysis2.png">
 
 ## Main Takeaways  
 - **Mechanical design is iterative**, almost every part needed multiple revisions as new constraints appeared: i had to change the offset of the shaft holders 3 times, the length of the vertical holder was too short, the base was too short, the container for the bottom servo was too tight, the length was miscalcualted for the horizontal servo holder, the jut-out was miscalculated so did not fit, the space for wires inside the base and ball was too little, the first print of everything melded together, the printer ran out of filament for a complete print that happened overnight, the axis ball and stick failed to print 2 times due to weaker support from the bottom and a heavy head, the ball itself was underestimated two times during cading process, the servo height was underestimated until finally measured, the printer spagetti-ified on the final print (shoutout henry for saving this project as a heroic passerby who restarted the print), the model was without smooth edges for two iterations, etc. these are problems that would have never been solved if not for revisions, each of them enough to break the project
