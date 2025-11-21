@@ -8,9 +8,9 @@ layout: default
 ## Motivating Questions + Objective
 - How can I **rotate a scanner smoothly in two independent directions using stepper motors**?
 - How do I design a structure that fits **two steppers inside a sphere** without collisions or instability?
-- How can I demonstrate my CAD in a way that inspires others and promotes this idea?
+- How can I design and present my CAD work in a way that inspires others to replicate or improve this idea?
 
-**Objective:**  
+**Objective:** Create a mechanism that lets a **scanner** rotate smoothly on **two independent axes** using **two stepper motors** inside a sphere and base. This type of setup is called a **gimbal**, a structure that enables controlled rotation. Inspired by **ball turrets from Star Wars**, I am adapting the idea into a fully spherical form that others can study, understand, and rebuild.
 
 ---
 
@@ -68,9 +68,7 @@ layout: default
 ---
 
 ## Reflection
-At the beginning, this project felt intimidating. I had never designed something that combined geometry, motors, and motion constraints inside such a tight enclosure. As I started modeling, I kept running into unexpected issues—clearances that were too tight, walls that were too thin, steppers that didn't fit the way I imagined. Each problem forced me to slow down, remeasure, rethink, and revise.
 
-Over time, the process shifted from confusing to genuinely satisfying. I began to understand the rhythm of mechanical design: test, adjust, test again. Every improvement made the model feel more real and more achievable. Seeing both axes rotate smoothly in Fusion 360 was a moment of real progress that made the earlier frustrations feel earned.
 
 This project changed the way I think about engineering. Hardware design isn’t just creativity—it’s patience, geometry, accuracy, and the willingness to rebuild parts until they actually work. And even though this is only the design stage, I’m already developing a clearer sense of how mechanical systems, electronics, and software will connect in the final version. This journal is meant to help others follow that same journey, so they can replicate and build on what I’m doing.
 
