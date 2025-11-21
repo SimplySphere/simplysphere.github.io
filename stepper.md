@@ -42,8 +42,10 @@ layout: default
 <img src="images/stepper-low.png">
 <img src="images/stepper-cad.png"> 
 Download .fbx or .f3d here
-<img src="images/stepper-makeshift.jpg">
-<img src="images/stepper-final.jpg">
+<img src="images/stepper-makeshift.png">
+<img src="images/stepper-final1.png">
+<img src="images/stepper-final2.png">
+<img src="images/stepper-final3.png">
 
 ## Problems + Solutions
 - **Finding dimensions**: finding reference sheet - nemo 17 had to research myself to find -- found a chinese reference using diagrams i got the numbers, still missing height of motor base and jut-out for cable -- had to measure myself; still needed those for the scanner so i reached out ot patrick to ask for it because i did not know them and he had just measured them before me
