@@ -38,25 +38,26 @@ layout: default
 6. **Iterative design with revision:** printed on wendesday 5:30, 8:30, 9:00 and thursday 8:30, 9:00 and final print started 11:30 to test different parts such as offset, the fitting of the motors, the fitting of all the components, etc; each time brough a list of 3-5 things to revise and edit, some taking 5 minutes to change some requiring a full run through of the cad to edit everything taking up to an hour; overall cading time amounted to close to 4 hours in one day
 7. **Present and demonstrate final design:** be able to present this design in a way that is educative and informative, keeping the design open source: this is link to the download for anyone who wishes to explore or pursue this idea
 
+Download [.fbx]() or [.f3d]() here
+
 <img src="images/stepper-starwars.png">
 <img src="images/stepper-low.png">
 <img src="images/stepper-cad.png"> 
-Download .fbx or .f3d here
 <img src="images/stepper-makeshift.png">
 <img src="images/stepper-final1.png">
 <img src="images/stepper-final2.png">
 <img src="images/stepper-final3.png">
 
 ## Problems + Solutions
-- **Finding dimensions**: finding reference sheet - nemo 17 had to research myself to find -- found a chinese reference using diagrams i got the numbers, still missing height of motor base and jut-out for cable -- had to measure myself; still needed those for the scanner so i reached out ot patrick to ask for it because i did not know them and he had just measured them before me
-- **Finding leeway** finding the extra space to give the shaft so that it maximizes friction while also allowing the shaft into itself without a big struggle; leveraged the d shaped shaft to be a better fit (now fit is directional); initally was too tight at 0.10mm, was still too much at 0.15mm finally last designw as 2.5mm of offset, which worked
+- **Finding dimensions**: Finding a reference sheet for the NEMA 17 motor required research. I eventually found a Chinese reference diagram and used it to get most of the numbers, but I was still missing the height of the motor base and the jut-out for the cable. I had to measure those myself. I still needed those dimensions for the scanner as well, so I reached out to Patrick and asked for them because I did not know them and he had just measured them before me. This showed me just how deep the need for proper measurements is for any form of design.
+- **Finding leeway**: I needed to find the extra space to give the shaft so that it maximized friction while still allowing the shaft to slide in without a big struggle. I leveraged the D-shaped shaft to create a better fit, which made the fit directional. Initially, it was too tight at 0.10 mm, and it was still too tight at 0.15 mm. The final design had 2.5 mm of offset, which worked.
 
 <img src="images/stepper-analysis1.png">
 <img src="images/stepper-analysis2.png">
 
 ## Main Takeaways  
-- **Mechanical design is iterative**, almost every part needed multiple revisions as new constraints appeared: i had to change the offset of the shaft holders 3 times, the length of the vertical holder was too short, the base was too short, the container for the bottom servo was too tight, the length was miscalcualted for the horizontal servo holder, the jut-out was miscalculated so did not fit, the space for wires inside the base and ball was too little, the first print of everything melded together, the printer ran out of filament for a complete print that happened overnight, the axis ball and stick failed to print 2 times due to weaker support from the bottom and a heavy head, the ball itself was underestimated two times during cading process, the servo height was underestimated until finally measured, the printer spagetti-ified on the final print (shoutout henry for saving this project as a heroic passerby who restarted the print), the model was without smooth edges for two iterations, etc. these are problems that would have never been solved if not for revisions, each of them enough to break the project
-- **Importance of lower fidelity for testing:** this process would have been much, much worse if i had not taken the time to print smaller sections and allow imperfection. my photo in context was an amalgamation to the point of being an abomination with parts from 4 different print jobs of the 5 components possible. allowing imperfection to occur to push for progress was what allowed this project to take shape in this short time span
+- **Mechanical design is iterative:** Almost every part needed multiple revisions as new constraints appeared. I had to change the offset of the shaft holders three times, the length of the vertical holder was too short, the base was too short, the holder for the bottom servo was too tight, the length was miscalculated for the horizontal servo holder, the cable jut-out was miscalculated so it did not fit, the space for wires inside the base and ball was too little, the first print of everything melded together, the printer ran out of filament for a complete print that happened overnight, the axis ball and stick failed to print twice due to weaker support from the bottom and a heavy head, the ball itself was underestimated two times during the CADing process, the servo height was underestimated until it was finally measured, the printer spaghetti-ified on the final print (shoutout Henry for saving this project as a heroic passerby who restarted the print), and the model was without smooth edges for two iterations. These are problems that would have never been solved without revisions, and each of them was enough to break the project.
+- **Importance of lower fidelity for testing:** This process would have been much worse if I had not taken the time to print smaller sections and allow imperfection. My photo in context was an amalgamation to the point of being an abomination, with parts from four different print jobs of the five components possible. Allowing imperfection to occur in order to push for progress was what allowed this project to take shape in such a short time span.
 
 <img src="images/stepper-cad-list.png">
   
