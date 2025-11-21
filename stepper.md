@@ -29,16 +29,15 @@ layout: default
 
 
 ## Step-by-Step Process
-1. **Initial concept and inspiration:** thought of star wars ball turret and thought of how 2 axis would work; know the two servos would need an orientation in which they were pointed up and to the side in order for movement to work; based on fundamentals placed into this idea of ball turret to create basic idea of design components
-2. **Test low-fidelity prototypes:** tested for friction with simple designs that took around 20 minutes each, interacting with the 3D printer and servos actively
-3. **Researching dimensions:** found a reference sheet in chinese, used ruler to find other unknowns, and contacted others for their numbers to create understanding of the measurements that would go into this design
-4. **Create medium-fidelity look-alike:** used measurements and created a crude, dysfunctional look-alike that served its role in showing me the dimensions in context, allowing me to tweak the design within the CAD software without having to move to higher fidelity and the real world yet
-5. **Finalize design:** design idea is finalized and components are selected to be a certain waay; cading takes the most time here and is the majority of this step as each part of the idea has to be recognized
-- the design has 5 parts: 
-6. **Iterative design with revision:** printed on wendesday 5:30, 8:30, 9:00 and thursday 8:30, 9:00 and final print started 11:30 to test different parts such as offset, the fitting of the motors, the fitting of all the components, etc; each time brough a list of 3-5 things to revise and edit, some taking 5 minutes to change some requiring a full run through of the cad to edit everything taking up to an hour; overall cading time amounted to close to 4 hours in one day
-7. **Present and demonstrate final design:** be able to present this design in a way that is educative and informative, keeping the design open source: this is link to the download for anyone who wishes to explore or pursue this idea
+1. **Initial concept and inspiration:** I thought of the Star Wars ball turret and considered how two axes would work. I knew the two servos would need an orientation where they were pointed up and to the side in order for the movement to work. Based on these fundamentals, I applied them to this idea of a ball turret to create the basic idea of the design components.
+2. **Test low-fidelity prototypes:** I tested for friction with simple designs that took around 20 minutes each, interacting with the 3D printer and servos actively.
+3. **Researching dimensions:** I found a reference sheet in Chinese, used a ruler to find other unknowns, and contacted others for their measurements in order to understand the dimensions that fit into the design.
+4. **Create medium-fidelity look-alike:** I used these measurements and created a crude, dysfunctional look-alike that served its role by showing me the dimensions in context, allowing me to tweak the design within the CAD software without having to move to higher fidelity or the real world yet.
+5. **Finalize design:** The design idea became finalized and the components were selected to be a certain way. CADing took up most of the time here since each part of the idea had to be recognized and completed.
+6. **Iterative design with revision:** I printed on Wednesday at 5:30, 8:30, and 9:00, and on Thursday at 8:30 and 9:00, and the final print started at 11:30. These prints tested different parts such as offset, the fitting of the motors, the fitting of all the components, and more. Each time I discovered a list of three to five things to revise and edit. Some changes took five minutes, while others required a full run-through of the CAD to edit everything, taking up to an hour. Overall, CADing time amounted to close to four hours in one day.
+7. **Present and demonstrate final design:** I aimed to present this design in a way that is educational and informative, so I made this design open-source. This means providing a link to the download for anyone who wishes to explore or pursue this idea.
 
-Download [.fbx]() or [.f3d]() here
+Download [.fbx](downloads/stepper.fbx) or [.f3d](downloads/stepper.f3d) here
 
 <img src="images/stepper-starwars.png">
 <img src="images/stepper-low.png">
