@@ -23,7 +23,8 @@ layout: default
 - Sharp GP2Y0A21YK0F IR Distance Sensor
 - USB cable
 
-<img src="images/stepper-materials.jpg">
+<img src="images/stepper-box.png">
+<img src="images/stepper-nema17.jpg">
 <img src="images/stepper-reference.jpg">
 
 
@@ -37,19 +38,19 @@ layout: default
 6. **Iterative design with revision:** printed on wendesday 5:30, 8:30, 9:00 and thursday 8:30, 9:00 and final print started 11:30 to test different parts such as offset, the fitting of the motors, the fitting of all the components, etc; each time brough a list of 3-5 things to revise and edit, some taking 5 minutes to change some requiring a full run through of the cad to edit everything taking up to an hour; overall cading time amounted to close to 4 hours in one day
 7. **Present and demonstrate final design:** be able to present this design in a way that is educative and informative, keeping the design open source: this is link to the download for anyone who wishes to explore or pursue this idea
 
-<img src="images/stepper-starwars.jpg">
-<img src="images/stepper-low.jpg">
-<img src="images/stepper-cad.jpg"> + download
-<img src="images/stepper-irl.jpg">
+<img src="images/stepper-starwars.png">
+<img src="images/stepper-low.png">
+<img src="images/stepper-cad.png"> 
+Download .fbx or .f3d here
+<img src="images/stepper-makeshift.jpg">
 <img src="images/stepper-final.jpg">
 
 ## Problems + Solutions
 - **Finding dimensions**: finding reference sheet - nemo 17 had to research myself to find -- found a chinese reference using diagrams i got the numbers, still missing height of motor base and jut-out for cable -- had to measure myself; still needed those for the scanner so i reached out ot patrick to ask for it because i did not know them and he had just measured them before me
 - **Finding leeway** finding the extra space to give the shaft so that it maximizes friction while also allowing the shaft into itself without a big struggle; leveraged the d shaped shaft to be a better fit (now fit is directional); initally was too tight at 0.10mm, was still too much at 0.15mm finally last designw as 2.5mm of offset, which worked
 
-<img src="images/stepper-cad-d-shaft.jpg">
-<img src="images/stepper-cad-offset-shaft.jpg">
-<img src="images/stepper-cad-analysis.jpg">
+<img src="images/stepper-analysis1.jpg">
+<img src="images/stepper-canalysis2.jpg">
 
 ## Main Takeaways  
 - **Mechanical design is iterative**, almost every part needed multiple revisions as new constraints appeared: i had to change the offset of the shaft holders 3 times, the length of the vertical holder was too short, the base was too short, the container for the bottom servo was too tight, the length was miscalcualted for the horizontal servo holder, the jut-out was miscalculated so did not fit, the space for wires inside the base and ball was too little, the first print of everything melded together, the printer ran out of filament for a complete print that happened overnight, the axis ball and stick failed to print 2 times due to weaker support from the bottom and a heavy head, the ball itself was underestimated two times during cading process, the servo height was underestimated until finally measured, the printer spagetti-ified on the final print (shoutout henry for saving this project as a heroic passerby who restarted the print), the model was without smooth edges for two iterations, etc. these are problems that would have never been solved if not for revisions, each of them enough to break the project
