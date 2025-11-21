@@ -47,13 +47,18 @@ layout: default
 - **Finding dimensions**: finding reference sheet - nemo 17 had to research myself to find -- found a chinese reference using diagrams i got the numbers, still missing height of motor base and jut-out for cable -- had to measure myself; still needed those for the scanner so i reached out ot patrick to ask for it because i did not know them and he had just measured them before me
 - **Finding leeway** finding the extra space to give the shaft so that it maximizes friction while also allowing the shaft into itself without a big struggle; leveraged the d shaped shaft to be a better fit (now fit is directional); initally was too tight at 0.10mm, was still too much at 0.15mm finally last designw as 2.5mm of offset, which worked
 
+<img src="images/stepper-cad-d-shaft.jpg">
+<img src="images/stepper-cad-offset-shaft.jpg">
+<img src="images/stepper-cad-analysis.jpg">
 
-## Main Takeaways
-- **Steppers demand exact spacing and alignment**, which forced me to take measurement seriously instead of approximating.  
+## Main Takeaways  
 - **Mechanical design is iterative**, almost every part needed multiple revisions as new constraints appeared: i had to change the offset of the shaft holders 3 times, the length of the vertical holder was too short, the base was too short, the container for the bottom servo was too tight, the length was miscalcualted for the horizontal servo holder, the jut-out was miscalculated so did not fit, the space for wires inside the base and ball was too little, the first print of everything melded together, the printer ran out of filament for a complete print that happened overnight, the axis ball and stick failed to print 2 times due to weaker support from the bottom and a heavy head, the ball itself was underestimated two times during cading process, the servo height was underestimated until finally measured, the printer spagetti-ified on the final print (shoutout henry for saving this project as a heroic passerby who restarted the print), the model was without smooth edges for two iterations, etc. these are problems that would have never been solved if not for revisions, each of them enough to break the project
 - **Importance of lower fidelity for testing:** this process would have been much, much worse if i had not taken the time to print smaller sections and allow imperfection. my photo in context was an amalgamation to the point of being an abomination with parts from 4 different print jobs of the 5 components possible. allowing imperfection to occur to push for progress was what allowed this project to take shape in this short time span
+
+<img src="images/stepper-cad-list.jpg">
   
 
 ## Reflection
-
+when i first head of this project on tuesday, I was instantly overwhelmed and did not know what to do. however, i think my approach this time to the time cunch alonh eith all the other challenges helped. I tried to focus on the iteration i was on currently, never trying to overpush or expected too much of any single try i made. i kept myself organized and focused on whatever it was i was doing and working for at that stage without any care for appearances.
+this project felt the best out of all the projects ive dont this year including pnp. i felt like in the short time span which was literally around a day, i spent my time efficiently and brought a product no one else was able to create. i know i spent many hours cading with a passion and checked the 3d printers more than 10 times a day to check my cad as well as to print, using all the times available to me to their fullest despite dorm meetings, study halls, summatives, and an already tight schedule. i felt like i took this one the smartest, playing with the fidelity and incompleteness without worry for appearances or a complete finished iteration every time. i felt like i wanted to show my process not my final result. in doing that i was able to put more progress into creating a final result i was able to revisit and revise multiple times that i can say i am very proud of. all in all i feel proud of the work ive done and i think i should be able to recognize the growth ive had over the year, especially with the original rocky first impression of this project. 
 
