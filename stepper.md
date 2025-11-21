@@ -28,20 +28,20 @@ layout: default
 
 
 ## Step-by-Step Process
-1. **Initial concept and inspiration:**
-2. **Test low-fidelity prototypes:**
-- 
-3. **Researching dimensions:**
-- 
-4. **Create medium-fidelity look-alike:**
-- 
-5. **Revise and finalize design:**
-- 
-6. **Iterative design with revision:**
-- 
-7. **Present and demonstrate final design:**
-- 
+1. **Initial concept and inspiration:** thought of star wars ball turret and thought of how 2 axis would work; know the two servos would need an orientation in which they were pointed up and to the side in order for movement to work; based on fundamentals placed into this idea of ball turret to create basic idea of design components
+2. **Test low-fidelity prototypes:** tested for friction with simple designs that took around 20 minutes each, interacting with the 3D printer and servos actively
+3. **Researching dimensions:** found a reference sheet in chinese, used ruler to find other unknowns, and contacted others for their numbers to create understanding of the measurements that would go into this design
+4. **Create medium-fidelity look-alike:** used measurements and created a crude, dysfunctional look-alike that served its role in showing me the dimensions in context, allowing me to tweak the design within the CAD software without having to move to higher fidelity and the real world yet
+5. **Finalize design:** design idea is finalized and components are selected to be a certain waay; cading takes the most time here and is the majority of this step as each part of the idea has to be recognized
+- the design has 5 parts: 
+6. **Iterative design with revision:** printed on wendesday 5:30, 8:30, 9:00 and thursday 8:30, 9:00 and final print started 11:30 to test different parts such as offset, the fitting of the motors, the fitting of all the components, etc; each time brough a list of 3-5 things to revise and edit, some taking 5 minutes to change some requiring a full run through of the cad to edit everything taking up to an hour; overall cading time amounted to close to 4 hours in one day
+7. **Present and demonstrate final design:** be able to present this design in a way that is educative and informative, keeping the design open source: this is link to the download for anyone who wishes to explore or pursue this idea
 
+<img src="images/stepper-starwars.jpg">
+<img src="images/stepper-low.jpg">
+<img src="images/stepper-cad.jpg"> + download
+<img src="images/stepper-irl.jpg">
+<img src="images/stepper-final.jpg">
 
 ## Problems + Solutions
 - **Finding dimensions**: finding reference sheet - nemo 17 had to research myself to find -- found a chinese reference using diagrams i got the numbers, still missing height of motor base and jut-out for cable -- had to measure myself; still needed those for the scanner so i reached out ot patrick to ask for it because i did not know them and he had just measured them before me
@@ -50,10 +50,9 @@ layout: default
 
 ## Main Takeaways
 - **Steppers demand exact spacing and alignment**, which forced me to take measurement seriously instead of approximating.  
-- **Mechanical design is iterative**, not linear. Almost every part needed multiple revisions as new constraints appeared.
-- **Importance of lower fidelity for testing:**
-- 
-
+- **Mechanical design is iterative**, almost every part needed multiple revisions as new constraints appeared: i had to change the offset of the shaft holders 3 times, the length of the vertical holder was too short, the base was too short, the container for the bottom servo was too tight, the length was miscalcualted for the horizontal servo holder, the jut-out was miscalculated so did not fit, the space for wires inside the base and ball was too little, the first print of everything melded together, the printer ran out of filament for a complete print that happened overnight, the axis ball and stick failed to print 2 times due to weaker support from the bottom and a heavy head, the ball itself was underestimated two times during cading process, the servo height was underestimated until finally measured, the printer spagetti-ified on the final print (shoutout henry for saving this project as a heroic passerby who restarted the print), the model was without smooth edges for two iterations, etc. these are problems that would have never been solved if not for revisions, each of them enough to break the project
+- **Importance of lower fidelity for testing:** this process would have been much, much worse if i had not taken the time to print smaller sections and allow imperfection. my photo in context was an amalgamation to the point of being an abomination with parts from 4 different print jobs of the 5 components possible. allowing imperfection to occur to push for progress was what allowed this project to take shape in this short time span
+  
 
 ## Reflection
 
