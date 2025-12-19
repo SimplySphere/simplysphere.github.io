@@ -35,19 +35,15 @@ layout: default
 7. **Demonstrate final form:** We presented on Thursday after a long morning of preparation, starting at 5:45 AM. I checked into the library as early as possible to do printing and the final assembly. Despite the stress, the presentation went well, and I finished Tech Seminar semester one on a high note.
 
 <img src="images/broken-stepper.png">
-<div style="display: flex; gap: 10px;">
-  <video width="48%" controls>
-    <source src="images/lidar-test1.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-  <video width="48%" controls>
-    <source src="images/lidar-test2.mp4" type="video/mp4">
-    Your browser does not support the video tag.
-  </video>
-</div>
-<p>&nbsp;</p>
-
-<source src="images/lidar-test3.MP4" type="video/mp4">
+<video controls width="600">
+  <source src="images/lidar-test1.mp4" type="video/mp4">
+</video>
+<video controls width="600">
+  <source src="images/lidar-test2.mp4" type="video/mp4">
+</video>
+<video controls width="600">
+  <source src="images/lidar-test3.mp4" type="video/mp4">
+</video>
 
 
 ## Problems + Solutions
