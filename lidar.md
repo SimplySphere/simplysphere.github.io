@@ -38,15 +38,18 @@ layout: default
 
 
 ## Problems + Solutions
-- **Finding my group**: 
+- **Finding my group:**: patrick left without a proper notice just started to focus on laser cutting and stopped being responsive to the idea of the ball turret mechanism and collin initally was interested but then left with patrick soon i realized that i was on my own and i had to make adjustments so i tried my luck with charlie but he said he did not do any code nor was he really looking into partnerships so i was very lost and knew the project counted so i looked around and saw two other groups that i considered however i lacked a way to communicate with them after class when i was pondering so i thought of using community dinner to talk my collaboration with thomas's group over and in the end i was able to form a partnership and we went on from there
+- **Last-minute fixes:** noticing a critical problem last minute is never fun and that was exactly what happened teh stepper motor at the bottom of the mechanism was shaky because of the movement of it kind of more so in general i never thought when desinging that it would have such a problem so the bottom was not a perfect fit like the one in the ball itself so i thought to make an insertion a kind of plug to be able to slot in so that the motor would be held in palce this i did the day of in the morning and printed the day of right before because we only noticed the night before but i just planned and made sure everything worked well
 
 <img src="images/stepper-analysis1.png">
 <img src="images/stepper-analysis2.png">
 
 ## Main Takeaways  
-- **Mechanical design is iterative:** 
+- **Fixing intuitively:** throghout this process i have messed up on multiple occasions and the only reason i was able to stay on track and continue was because i never overdid my solutions to the multitue of problems that arose in the process somehow many of these solutions involved a drill the first was when i designed the other half ot eh ball wrong so taht it turned the wrong way drilling the hole so it didnt catch the d shaft worked perfectly the second was when the plug did not have a slot for the wire outcropping area whcih a drill also sovled by dirlling out a quarter of the plug
+- **Finding my people:** in teams you cant expect everything to follow your wavelength or even your goals some people simply have their own agendas and lives i knew of this and have experiecned this mayn times before but experiencing it is always a learning experience and not one that is fun i dont blame these people but if i was all powerful i know i would have changed some peoples minds in order to push for what i wanted to see in the end however since im no all powerful being i have to find my people that i can trust and i can work well with because forcing myself or forcing others to follow me is not fair to either party so from now on i will try to keep this idea more in mind and focus on compromising on all the steps rather than getting ahead of myself
 
 <img src="images/stepper-cad-list.png">
   
 
 ## Reflection
+i think this project was more of a social project than an engineering one despite it being an engineering challenge in every way jsut because of the problems i was met with during these few weeks
