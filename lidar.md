@@ -42,7 +42,7 @@ layout: default
   <source src="images/lidar-test2.mp4" type="video/mp4">
 </video>
 <video controls width="600">
-  <source src="images/lidar-test3.mp4" type="video/mp4">
+  <source src="images/lidar-test3.MP4" type="video/mp4">
 </video>
 
 
