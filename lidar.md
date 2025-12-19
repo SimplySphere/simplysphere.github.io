@@ -41,7 +41,7 @@ layout: default
     Your browser does not support the video tag.
   </video>
   <video width="48%" controls>
-    <source src="images/lidar-test1.mp4" type="video/mp4">
+    <source src="images/lidar-test2.mp4" type="video/mp4">
     Your browser does not support the video tag.
   </video>
 </div>
