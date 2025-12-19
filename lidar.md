@@ -22,7 +22,7 @@ layout: default
 - Completed & printed gimbal
 
 <img src="images/stepper-final1.png">
-<img src="images/coding-platforms.png">
+<img src="images/code-platforms.png">
 
 
 ## Step-by-Step Process
@@ -34,21 +34,23 @@ layout: default
 6. **Until the last minute:** we discovered a small issue and i had to cad something that had to work first try and turns out it didnt which usually happens with 3d design so we went to robotics to drill out a whole quarter of it but then it worked and the problem of the mechanism being a bit too loose on the bottom was solved
 7. **Demonstrate final form:** we presented on thursday after a morning of hard work starting at 5:30 getting everything prepped and checking in to the library as early as possible to start printing but overall the presentation went well and i finished tech sem semester one on a high note
 
-<img src="images/stepper-starwars.png">
+<img src="images/broken-stepper.png">
+<img src="images/lidar-test1.MOV">
+<img src="images/lidar-test2.MOV">
+<img src="images/lidar-test3.MP4">
 
 
 ## Problems + Solutions
 - **Finding my group:**: patrick left without a proper notice just started to focus on laser cutting and stopped being responsive to the idea of the ball turret mechanism and collin initally was interested but then left with patrick soon i realized that i was on my own and i had to make adjustments so i tried my luck with charlie but he said he did not do any code nor was he really looking into partnerships so i was very lost and knew the project counted so i looked around and saw two other groups that i considered however i lacked a way to communicate with them after class when i was pondering so i thought of using community dinner to talk my collaboration with thomas's group over and in the end i was able to form a partnership and we went on from there
 - **Last-minute fixes:** noticing a critical problem last minute is never fun and that was exactly what happened teh stepper motor at the bottom of the mechanism was shaky because of the movement of it kind of more so in general i never thought when desinging that it would have such a problem so the bottom was not a perfect fit like the one in the ball itself so i thought to make an insertion a kind of plug to be able to slot in so that the motor would be held in palce this i did the day of in the morning and printed the day of right before because we only noticed the night before but i just planned and made sure everything worked well
 
-<img src="images/stepper-analysis1.png">
-<img src="images/stepper-analysis2.png">
+<img src="images/lidar-wip.png">
 
 ## Main Takeaways  
 - **Fixing intuitively:** throghout this process i have messed up on multiple occasions and the only reason i was able to stay on track and continue was because i never overdid my solutions to the multitue of problems that arose in the process somehow many of these solutions involved a drill the first was when i designed the other half ot eh ball wrong so taht it turned the wrong way drilling the hole so it didnt catch the d shaft worked perfectly the second was when the plug did not have a slot for the wire outcropping area whcih a drill also sovled by dirlling out a quarter of the plug
 - **Finding my people:** in teams you cant expect everything to follow your wavelength or even your goals some people simply have their own agendas and lives i knew of this and have experiecned this mayn times before but experiencing it is always a learning experience and not one that is fun i dont blame these people but if i was all powerful i know i would have changed some peoples minds in order to push for what i wanted to see in the end however since im no all powerful being i have to find my people that i can trust and i can work well with because forcing myself or forcing others to follow me is not fair to either party so from now on i will try to keep this idea more in mind and focus on compromising on all the steps rather than getting ahead of myself
 
-<img src="images/stepper-cad-list.png">
+<img src="images/lidar-present.png">
   
 
 ## Reflection
