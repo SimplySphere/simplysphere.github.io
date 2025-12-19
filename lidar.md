@@ -35,9 +35,9 @@ layout: default
 7. **Demonstrate final form:** we presented on thursday after a morning of hard work starting at 5:30 getting everything prepped and checking in to the library as early as possible to start printing but overall the presentation went well and i finished tech sem semester one on a high note
 
 <img src="images/broken-stepper.png">
-<img src="images/lidar-test1.MOV">
-<img src="images/lidar-test2.MOV">
-<img src="images/lidar-test3.MP4">
+<img src="images/lidar-test1.mp4">
+<img src="images/lidar-test2.mp4">
+<img src="images/lidar-test3.mp4">
 
 
 ## Problems + Solutions
