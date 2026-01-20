@@ -33,10 +33,10 @@ layout: default
 <img src="images/10ideas-2.png">
 <img src="images/webb-starters.png">
 <img src="images/interdiscipline-code-1.png">
-<img src="images/onrender-fail-1.png">
-<img src="images/onrender-fail-2.png">
 <img src="images/interdiscipline-prompt.png">
 <img src="images/interdiscipline-code-2.png">
+<img src="images/onrender-fail-1.png">
+<img src="images/onrender-fail-2.png">
 <img src="images/interdiscipline-code-3.png">
 
 
