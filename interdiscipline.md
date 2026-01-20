@@ -45,15 +45,15 @@ layout: default
 - **Finding time**: With Science Fair and other classes happening at the same time, I could not rely on long, uninterrupted work sessions. When I tried to cram, I made messier decisions and lost time re-reading my own code. The fix was working in shorter, focused sessions, building the project in clean layers so I could resume quickly without getting lost.
 
 <img src="images/onrender-fail-3.png">
-<img src="images/interdiscipline-demo1.png">
+<img src="images/interdiscipline-demo-1.png">
 
 
 ## Main Takeaways  
 - **Interviews = insight**: Interviews give you access to someone else’s perspective, and that model can feel like a different universe. As a student, I mostly experience Webb as a place designed to push me personally, so I do not naturally think about its structure as a system. Mr. Strom viewed the program structurally, focusing on its intent, its patterns, and where interdisciplinary overlap could be encouraged. The interview helped me see the problem at the institutional level, not just the student level.
 - **Scope requires organization, not just effort**: Working for hours is not useful if the project becomes a fog where nothing is where you expect it to be, which is exactly what happened to me. When I tried to treat the project as one giant object in my head, I lost track of what was solid and what was experimental, which made me waste time and nearly restart. The takeaway was that scope gets handled by the organization by having a properstep-by-step building process so that the project expands predictably and piecewise in a way that makes sense in my head. 
 
-<img src="images/interdiscipline-demo2.png">
-<img src="images/interdiscipline-demo3.png">
+<img src="images/interdiscipline-demo-2.png">
+<img src="images/interdiscipline-demo-3.png">
   
 
 ## Reflection
