@@ -26,8 +26,14 @@ layout: default
 6. **Base code**: I wrote the core code for calling the API and structured it across multiple files so it could function as a real system rather than one messy script.
 7. **Prompt Adjustment**: This took the most iterations which is to say 50+ rounds of trial-and-error. I ended up with a prompt system that uses up to five seeds to generate different angles, encourage niche connections, and avoid generic results.
 8. **Overextending with Onrender**: I jumped too early into hosting (without even having a UI) using a platform I had never used before. I hoped it would be quick, but it turned out to be too complex for what I needed at that stage, so I had to backtrack.
-9. **Tkinter UI**: I built a UI in Tkinter and iterated on it a lot (50+ tries) to get to a version that was organized and usable. This became the most complex UI I have made, mostly because I rarely build interfaces.
-10. **Pygame Pivot**: As the UI got more ambitious, performance became an issue. For the MVP, I pivoted toward Pygame to keep the interface responsive while still making it visually acceptable.
+9. **Showing to stakeholder**: To reset, I showed my progress, though not the most aesthetic, to my stakeholder, Mr. Strom. He found the idea both fun and insightful and gave me the tip to add filters and possibly support for custom courses.
+10. **Tkinter UI**: I built a UI in Tkinter and iterated on it a lot (50+ tries) to get to a version that was organized and usable. This became the most complex UI I have made, mostly because I rarely build interfaces.
+11. **Pygame Pivot**: As the UI got more ambitious, performance became an issue. For the MVP, I pivoted toward Pygame to keep the interface responsive while still making it visually acceptable.
+
+Post-presentation work:
+12. **Returning to stakeholder**: With a UI in hand, I showed my work to Mr. Strom again. He expressed his liking and his interest in possibly sharing it in his push at Webb for more interdisciplinary engagement. We exchanged emails and scheduled a time to talk further. 
+13. **Returning to Onrender**: Coming back with a UI in mind did not mean porting to a website was any easier. With a date in mind with Mr. Strom, I worked tirelessly, putting in more than 10 hours in less than a day and a half to move from Python VS Code onto Onrender, successfully creating the website (though it will take a while to load and will cease to work in February because I got a free account): [https://interdiscipline.onrender.com/](https://interdiscipline.onrender.com)
+14. **Final presentation**: The real presentation was back to my stakeholder on our appointed date, showing Mr. Strom the website on his computer (amazing flex 10/10). He gave some feedback that I will carry over to the rest of my work from now on. 
    
 <img src="images/10ideas-1.png">
 <img src="images/10ideas-2.png">
