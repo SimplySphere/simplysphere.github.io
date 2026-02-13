@@ -3,7 +3,7 @@ title: Underwater ROV
 layout: default
 ---
 
-### Checkpoint (February break)
+# Checkpoint (February break)
 
 ## Motivating Questions + Objective
 - How to **respect** and **revive** another group's work, **building off of it** while **communicating with the group itself**?
