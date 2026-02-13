@@ -18,7 +18,7 @@ layout: default
 - Jake & Jonathan's old ROV + documentation
 
 <img src="images/bluerov2-1.png">
-<img src="images/rov-materials.png">
+<img src="images/jj-materials1.png">
 
 
 ## Step-by-Step Process
@@ -51,7 +51,8 @@ layout: default
 
 <img src="images/jj-documentation.png">
 <img src="images/bluerov2-8.png">
-<img src="images/jj-rov.png">
+<img src="images/bluerov2-9.png">
+<img src="images/jj-materials2.png">
   
 
 ## Reflection
