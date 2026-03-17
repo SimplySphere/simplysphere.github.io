@@ -8,59 +8,59 @@ layout: default
 <div class="slideshow-container">
 
   <div class="slide fade">
-    <img src="images/macrosprint-1" style="width:100%">
+    <img src="images/macrosprint-1.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-2" style="width:100%">
+    <img src="images/macrosprint-2.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-3" style="width:100%">
+    <img src="images/macrosprint-3.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-4" style="width:100%">
+    <img src="images/macrosprint-4.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-5" style="width:100%">
+    <img src="images/macrosprint-5.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-6" style="width:100%">
+    <img src="images/macrosprint-6.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-7" style="width:100%">
+    <img src="images/macrosprint-7.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-8" style="width:100%">
+    <img src="images/macrosprint-8.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-9" style="width:100%">
+    <img src="images/macrosprint-9.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-10" style="width:100%">
+    <img src="images/macrosprint-10.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-11" style="width:100%">
+    <img src="images/macrosprint-11.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-12" style="width:100%">
+    <img src="images/macrosprint-12.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-13" style="width:100%">
+    <img src="images/macrosprint-13.png" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/macrosprint-14" style="width:100%">
+    <img src="images/macrosprint-14.png" style="width:100%">
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
