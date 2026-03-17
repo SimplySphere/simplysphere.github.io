@@ -164,3 +164,11 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 </script>
+
+
+## Topic Proposal
+For my project, I want to research the digital divide by age, specifically how older adults are often excluded by app and website designs that assume users are up to date with digital trends. This connects to UN Sustainable Development Goal 10’s Target 10.3 because unequal digital design can reduce equal opportunity by making it harder for older adults to access services and information that can be key in everyday life. I am interested in this topic because the problem is seen from the perspective that older adults themselves are the issue, since they do not know better; however, in reality, the issue stems from poor usability and design that do not facilitate everyone. My project will explore how these barriers appear in real tools and how AI could potentially become a diagnostic tool to detect recurring usability problems, allowing for the detection of when and where apps and websites need more equity. 
+
+## Target
+**10.3**: Ensure equal opportunity and reduce inequalities of outcome, including by eliminating discriminatory laws, policies and practices and promoting appropriate legislation, policies and action in this regard
+**10.3.1**: Proportion of population reporting having personally felt discriminated against or harassed within the previous 12 months on the basis of a ground of discrimination prohibited under international human rights law
