@@ -8,68 +8,159 @@ layout: default
 <div class="slideshow-container">
 
   <div class="slide fade">
-    <img src="images/vr1.png" style="width:100%">
+    <img src="images/macrosprint-1" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/vr2.png" style="width:100%">
+    <img src="images/macrosprint-2" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/vr3.png" style="width:100%">
-    <p class="caption">VR, like any other technology, began as an idea. The first kind of invention was the stereoscope, which created the first 3D illusion using two images. Then, works like Pygmalion's spectacles foresaw goggles that could take people to other worlds. Soon, devices began to do something along those lines on a very basic level.</p>
+    <img src="images/macrosprint-3" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/vr4.png" style="width:100%">
-    <p class="caption">In the 1960s and 70s, VR became a real research field, originating in military and scientific applications similar to the inventions of the space race. Ivan Sutherland’s “Ultimate Display” and the Sword of Damocles created the first computer-linked headsets.</p>
+    <img src="images/macrosprint-4" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/vr5.png" style="width:100%">
-    <p class="caption">The military used simulators to train pilots safely. Artists like Myron Krueger experimented with interactive rooms that reacted to movement.</p>
+    <img src="images/macrosprint-5" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/vr6.png" style="width:100%">
-    <p class="caption">Like all technologies, VR began to be commercialized. In the 80s and 90s, VR became public. The tech was expensive and not very advanced.</p>
+    <img src="images/macrosprint-6" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/vr7.png" style="width:100%">
-    <p class="caption">Soon, by the 2000s, projects like Google Street View began to find practical uses for VR. In the case of VR, it was more created as an innovative piece of technology itself rather than to solve a specific problem.</p>
+    <img src="images/macrosprint-7" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/vr8.png" style="width:100%">
-    <p class="caption">Soon, VR began to really develop with Oculus, which Facebook acquired, and then different productions. Anyways, 2022 rolls with the Meta Quest Pros.</p>
+    <img src="images/macrosprint-8" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/vr9.png" style="width:100%">
-    <p class="caption">There is more advanced stuff past 2022, but the focus will be on the Quest Pros because they are what we have at Webb.</p>
+    <img src="images/macrosprint-9" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <img src="images/vr10.png" style="width:100%">
-    <p class="caption">The Quest Pro was not just faster. It fundamentally changed what VR could do. It used dual Mini-LED screens, better lenses, eye and face tracking, and full-color passthrough. You could see the world while still in VR.</p>
+    <img src="images/macrosprint-10" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <video width="100%" controls autoplay muted loop>
-      <source src="images/vr11.mp4" type="video/mp4">
-    </video>
-    <p class="caption">Basically, it turned VR into a full-on mixed-reality platform. This is the Meta Quest Pro promotion video. VR is a very important technology today because it connects people and ideas in new ways.</p>
+    <img src="images/macrosprint-11" style="width:100%">
   </div>
 
   <div class="slide fade">
-    <video width="100%" controls autoplay muted loop>
-      <source src="images/vr12.mp4" type="video/mp4">
-    </video>
-    <p class="caption">Examples are doctors practicing surgeries, engineers testing designs, students exploring anywhere in the world, veterans with PTSD being able to go through therapy by visiting the place in VR. In essence, it reduces distance and builds understanding. From the first stereoscope or idea in some novel to now, the Meta Quest Pro in our Webb library, VR has come quite a long way.</p>
+    <img src="images/macrosprint-12" style="width:100%">
+  </div>
+
+  <div class="slide fade">
+    <img src="images/macrosprint-13" style="width:100%">
+  </div>
+
+  <div class="slide fade">
+    <img src="images/macrosprint-14" style="width:100%">
   </div>
 
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
 
 </div>
+
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+  <span class="dot" onclick="currentSlide(9)"></span>
+  <span class="dot" onclick="currentSlide(10)"></span>
+  <span class="dot" onclick="currentSlide(11)"></span>
+  <span class="dot" onclick="currentSlide(12)"></span>
+  <span class="dot" onclick="currentSlide(13)"></span>
+  <span class="dot" onclick="currentSlide(14)"></span>
+</div>
+
+<style>
+.slideshow-container {
+  max-width: 800px;
+  position: relative;
+  margin: auto;
+}
+.slide {display: none;}
+img, video {border-radius: 10px;}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.3s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+.next {right: 0;border-radius: 3px 0 0 3px;}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.05);
+  color: black;
+}
+.caption {
+  color: black;
+  font-size: 16px;
+  padding: 8px 12px;
+  text-align: center;
+}
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #ccc;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {background-color: #555;}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.2s;
+}
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+</style>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) { showSlides(slideIndex += n); }
+function currentSlide(n) { showSlides(slideIndex = n); }
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("slide");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
