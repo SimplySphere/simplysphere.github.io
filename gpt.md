@@ -12,18 +12,12 @@ layout: default
 
 **Objective:** To build a rudimentary large language model, **WebbGPT**, a Webb-specific language model project that can respond with answers built for the Webb community.
 
-
 ## Materials
-- Local WebBGPT repository
 - VS Code
-- Python 3.12 environment
-- GitHub repository
-- Webb-specific mock data
+- Webb-specific data
 - Domain corpus files
 - Tokenizer artifacts
-- Local MVP model configs
-- Training and evaluation scripts
-
+- 
 <img src="images/webbgpt-repo-overview.png">
 <img src="images/webbgpt-vscode-project.png">
 
