@@ -14,12 +14,12 @@ layout: default
 
 ## Materials
 - VS Code
-- Webb-specific data
-- Domain corpus files
-- Tokenizer artifacts
+- Webb-specific grounding
+- Fineweb dataset
   
-<img src="images/webbgpt-repo.png">
-<img src="images/webbgpt-configs.png">
+<img src="images/vscode.png">
+<img src="images/fineweb.png">
+<img src="images/webb-specific.png">
 
 ## Step-by-Step Process
 1. **Define the goal**: The project started with the idea of making a Webb-focused assistant, not just a general chatbot. The goal was to create a system that could understand Webb-related information and answer questions in a more controlled, testable way.
