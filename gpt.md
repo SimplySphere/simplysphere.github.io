@@ -26,12 +26,14 @@ layout: default
 
 2. **Find the data**: After separating the project into levels, I focused on finding useful training material. I needed both broad general text and Webb-specific data, so I used FineWeb-style, which had internet text from many years, and the official Webb website to link the model to the school context. 
 
+### Data sources
 [Fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
 
 [Webb-specific](webb.org)
 
 3. **Learn from YouTube videos and research papers**: To learn how language models work, I used YouTube videos and other explanations to understand the basic training pipeline. I learned more about tokenizers, pretraining, model size, attention, and transformers.
 
+### Learning Resources: videos and papers
 - [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=6): a brief explanation of what large language models are and why predicting text can create useful behavior.
 - [Transformers, the tech behind LLMs](https://www.youtube.com/watch?v=wjZofJX0v4M&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=7): an explanation of the Transformer architecture behind modern language models.
 - [How might LLMs store facts](https://www.youtube.com/watch?v=9-Jl0dxWQs8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=9): an explanation of how facts and knowledge may be represented inside language model weights.
@@ -49,8 +51,10 @@ layout: default
 
 6. **Iterate slowly**: After getting the project running, the process became a slow iteration. I looked at training logs, checked perplexity, reviwed bad generation samples, adjusted configs, cleaned data, and tried to understand why the model behaved as it did. The project is still in early development, but each cycle provides more information about what needs improvement next.
 
+### WebbGPT levels visual
 <img src="images/webbgpt-levels.png">
 
+### Studio B Request Slide
 <div style="width: 90%; height: 440px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
     src="files/studio-b-request.pdf" 
@@ -60,6 +64,7 @@ layout: default
   </iframe>
 </div>
 
+### Evaluation Samples
 <div style="width: 90%; height: 450px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
     src="files/webbgpt-final-eval.pdf" 
@@ -73,6 +78,7 @@ layout: default
 - **Large training runs are expensive**: Training a serious language model can take a lot of compute, so the project uses smaller local profiles first. The debug profile proves the pipeline works, while local-mvp gives a local test to iterate and work on without having to worry about time.
 - **Quality vs complexity**: A model can appear to be learning through certain measurements but actually be failing generally. WebbGPT handles this by using evaluation files, validation data, test cases, experiment notes, and many qualitative samples that track problems like topic drift, semantic loops, and weak catalog accuracy.
 
+### Training log
 <div style="width: 90%; height: 600px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
     src="files/webbgpt-training.pdf" 
@@ -86,10 +92,12 @@ layout: default
 - **Local testing matters**: Having debug and local-mvp profiles makes the project easier to develop because changes can be tested before running larger experiments. Without this distinction, I would be running week-long training sessions without any confirmation of whether a model looked good or not. This could slow iteration and progress to a crawl. 
 - **Grounding improves trust**: Connecting answers to Webb data and citations makes the assistant more useful because users can see where information came from instead of blindly trusting generated text. Thus, I wanted to make sure my data was clean and always trustworthy. 
 
+### Individual Sample
 <video controls width="600">
   <source src="images/webbgpt-sample.mp4" type="video/mp4">
 </video>
 
+### WebbGPT README
 <div style="width: 90%; height: 600px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
     src="files/webbgpt-README.pdf" 
