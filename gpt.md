@@ -88,9 +88,7 @@ layout: default
 - **Local testing matters**: Having debug and local-mvp profiles makes the project easier to develop because changes can be tested before running larger experiments. Without this distinction, I would be running week-long training sessions without any confirmation of whether a model looked good or not. This could slow iteration and progress to a crawl. 
 - **Grounding improves trust**: Connecting answers to Webb data and citations makes the assistant more useful because users can see where information came from instead of blindly trusting generated text. Thus, I wanted to make sure my data was clean and always trustable. 
 
-
+files here please
 
 ## Reflection
-WebbGPT is a challenging project because it combines machine learning, data preparation, backend serving, evaluation, and school-specific knowledge. It is not just about making a chatbot respond; it is about making the entire system reproducible and trustworthy.
-
-The most important progress so far is that the project has a clear structure. There are configs for different run sizes, Webb data sources, tests, evaluation prompts, and a browser playground. The next step is continuing to improve answer quality, reduce drift, and make the local assistant more reliable when answering Webb-specific questions.
+WebbGPT is a project I like to characterize with duplicity. This is both because I like the word because I think it is cool and because the project has two parts: learning LLMs to present and create a verison of it myself. Despite the creation process being the more challenging part, the focus is still on learning and bettering myself on this topic that stands at the forefront of a field I am interest in, AI. I cannot say I do not feel lost at times working on this, especially when problems occur. However, I understand I still have time and this project is not meant to be straightforward, nevermind easy. Thus, I hope this checkpoint shows that I have put in the time and progress, and I want to slowly work towards presenting, the USC event, and the final product of WebbGPT 0.2.
