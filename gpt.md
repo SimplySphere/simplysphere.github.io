@@ -86,7 +86,9 @@ layout: default
 - **Local testing matters**: Having debug and local-mvp profiles makes the project easier to develop because changes can be tested before running larger experiments. Without this distinction, I would be running week-long training sessions without any confirmation of whether a model looked good or not. This could slow iteration and progress to a crawl. 
 - **Grounding improves trust**: Connecting answers to Webb data and citations makes the assistant more useful because users can see where information came from instead of blindly trusting generated text. Thus, I wanted to make sure my data was clean and always trustworthy. 
 
-<source src="images/webbgpt-sample.mp4" type="video/mp4">
+<video controls width="600">
+  <source src="images/webbgpt-sample.mp4" type="video/mp4">
+</video>
 
 <div style="width: 90%; height: 600px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
