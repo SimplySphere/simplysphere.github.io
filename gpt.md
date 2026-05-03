@@ -27,6 +27,7 @@ layout: default
 2. **Find the data**: After separating the project into levels, I focused on finding useful training material. I needed both broad general text and Webb-specific data, so I used FineWeb-style, which had internet text from many years, and the official Webb website to link the model to the school context. 
 
 [Fineweb](https://huggingface.co/datasets/HuggingFaceFW/fineweb)
+
 [Webb-specific](webb.org)
 
 3. **Learn from YouTube videos and research papers**: To learn how language models work, I used YouTube videos and other explanations to understand the basic training pipeline. I learned more about tokenizers, pretraining, model size, attention, and transformers.
@@ -84,7 +85,7 @@ layout: default
   </iframe>
 </div>
 
-<img src="images/webbgpt-grounding.png">
+<source src="images/webbgpt-sample.MOV" type="video/mp4">
 
 ## Main Takeaways
 - **A chatbot is more than a model**: WebbGPT showed that the model itself is only one part of the system. The data pipeline, configs, grounding database, evaluations, export step, and serving app are all necessary for the assistant to actually work.
