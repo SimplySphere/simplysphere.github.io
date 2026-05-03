@@ -38,7 +38,7 @@ layout: default
 6. **Iterative design with revision:** I printed on Wednesday at 5:30, 8:30, and 9:00, and on Thursday at 8:30 and 9:00, and the final print started at 11:30. These prints tested different parts such as offset, the fitting of the motors, the fitting of all the components, and more. Each time I discovered a list of three to five things to revise and edit. Some changes took five minutes, while others required a full run-through of the CAD to edit everything, taking up to an hour. Overall, CADing time amounted to close to four hours in one day.
 7. **Present and demonstrate final design:** I aimed to present this design in a way that is educational and informative, so I made this design open-source. This means providing a link to the download for anyone who wishes to explore or pursue this idea.
 
-Download [.fbx](downloads/stepper.fbx) or [.f3d](downloads/stepper.f3d) here
+Download [.fbx](files/stepper.fbx) or [.f3d](files/stepper.f3d) here
 
 <img src="images/stepper-starwars.png">
 <img src="images/stepper-low.png">
