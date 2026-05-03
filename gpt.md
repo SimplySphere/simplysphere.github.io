@@ -82,13 +82,20 @@ layout: default
   </iframe>
 </div>
 
-<source src="images/webbgpt-sample.MOV" type="video/mp4">
-
 ## Main Takeaways
 - **Local testing matters**: Having debug and local-mvp profiles makes the project easier to develop because changes can be tested before running larger experiments. Without this distinction, I would be running week-long training sessions without any confirmation of whether a model looked good or not. This could slow iteration and progress to a crawl. 
-- **Grounding improves trust**: Connecting answers to Webb data and citations makes the assistant more useful because users can see where information came from instead of blindly trusting generated text. Thus, I wanted to make sure my data was clean and always trustable. 
+- **Grounding improves trust**: Connecting answers to Webb data and citations makes the assistant more useful because users can see where information came from instead of blindly trusting generated text. Thus, I wanted to make sure my data was clean and always trustworthy. 
 
-files here please
+<source src="images/webbgpt-sample.mp4" type="video/mp4">
+
+<div style="width: 90%; height: 600px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
+  <iframe 
+    src="files/webbgpt-README.pdf" 
+    width="100%" 
+    height="100%" 
+    style="border: none;">
+  </iframe>
+</div>
 
 ## Reflection
-WebbGPT is a project I like to characterize with duplicity. This is both because I like the word because I think it is cool and because the project has two parts: learning LLMs to present and create a verison of it myself. Despite the creation process being the more challenging part, the focus is still on learning and bettering myself on this topic that stands at the forefront of a field I am interest in, AI. I cannot say I do not feel lost at times working on this, especially when problems occur. However, I understand I still have time and this project is not meant to be straightforward, nevermind easy. Thus, I hope this checkpoint shows that I have put in the time and progress, and I want to slowly work towards presenting, the USC event, and the final product of WebbGPT 0.2.
+WebbGPT is a project I like to characterize with duplicity. This is both because I like the word, because I think it is cool, and because the project has two parts: learning LLMs to present and create a version of it myself. Despite the creation process being the more challenging part, the focus is still on learning and bettering myself on this topic that stands at the forefront of a field I am interested in, AI. I cannot say I do not feel lost at times working on this, especially when problems occur. However, I understand I still have time, and this project is not meant to be straightforward, never mind easy. Thus, I hope this checkpoint shows that I have put in the time and progress, and I want to slowly work towards presenting about LLMs, the USC event, and the final product of WebbGPT 0.2.
