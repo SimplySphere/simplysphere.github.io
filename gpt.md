@@ -51,7 +51,7 @@ layout: default
 
 <img src="images/webbgpt-levels.png">
 
-<div style="width: 90%; height: 700px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
+<div style="width: 90%; height: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
     src="files/studio-b-request.pdf" 
     width="100%" 
@@ -60,7 +60,7 @@ layout: default
   </iframe>
 </div>
 
-<div style="width: 90%; height: 700px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
+<div style="width: 90%; height: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
     src="files/webbgpt-final-eval.pdf" 
     width="100%" 
