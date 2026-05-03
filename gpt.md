@@ -33,8 +33,8 @@ layout: default
 3. **Learn from YouTube videos and research papers**: To learn how language models work, I used YouTube videos and other explanations to understand the basic training pipeline. I learned more about tokenizers, pretraining, model size, attention, and transformers.
 
 - [Large Language Models explained briefly](https://www.youtube.com/watch?v=LPZh9BOjkQs&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=6): a brief explanation of what large language models are and why predicting text can create useful behavior.
-- [Transformers, the tech behind LLMs | Deep Learning Chapter 5](https://www.youtube.com/watch?v=wjZofJX0v4M&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=7): an explanation of the Transformer architecture behind modern language models.
-- [How might LLMs store facts | Deep Learning Chapter 7](https://www.youtube.com/watch?v=9-Jl0dxWQs8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=9): an explanation of how facts and knowledge may be represented inside language model weights.
+- [Transformers, the tech behind LLMs](https://www.youtube.com/watch?v=wjZofJX0v4M&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=7): an explanation of the Transformer architecture behind modern language models.
+- [How might LLMs store facts](https://www.youtube.com/watch?v=9-Jl0dxWQs8&list=PLZHQObOWTQDNU6R1_67000Dx_ZCJB-3pi&index=9): an explanation of how facts and knowledge may be represented inside language model weights.
 - [They solved AI’s memory problem!](https://www.youtube.com/watch?v=2IfAVV7ewO0&list=LL&index=15): a video on how AI systems can use memory or retrieval to work with information beyond a single prompt.
 - [They solved AI hallucinations!](https://www.youtube.com/watch?v=1ONwQzauqkc): a video on the root of hallucinations within neural networks; thus, they have a way to notice when hallucinations happen to ensure reliable information.
 - [The Math Needed for AI/ML (Complete Roadmap)](https://www.youtube.com/watch?v=YZOAiJmnNvc&list=LL&index=22): a roadmap of the math foundations needed to understand machine learning.
@@ -70,11 +70,8 @@ layout: default
 </div>
 
 ## Problems + Solutions
-- **Large training runs are expensive**: Training a serious language model can take a lot of compute, so the project uses smaller local profiles first. The `debug` profile proves the pipeline works quickly, while `local-mvp` gives a better local test without jumping straight to massive models.
-
-- **Generic answers are not enough**: A normal model may give vague or incorrect Webb answers. The solution was to add grounding, Webb-specific datasets, source policies, and evaluation prompts so answers can be checked against actual project data.
-
-- **Quality is hard to measure**: A model can appear to work in a few examples but still fail on hidden cases. WebbGPT handles this by using evaluation files, validation data, test cases, and experiment notes that track problems like topic drift, semantic loops, and weak catalog accuracy.
+- **Large training runs are expensive**: Training a serious language model can take a lot of compute, so the project uses smaller local profiles first. The debug profile proves the pipeline works, while local-mvp gives a local test to iterate and work on without having to worry about time.
+- **Quality vs complexity**: A model can appear to be learning through certain measurements but actually be failing generally. WebbGPT handles this by using evaluation files, validation data, test cases, experiment notes, and many qualitative samples that track problems like topic drift, semantic loops, and weak catalog accuracy.
 
 <div style="width: 90%; height: 700px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
@@ -88,14 +85,10 @@ layout: default
 <source src="images/webbgpt-sample.MOV" type="video/mp4">
 
 ## Main Takeaways
-- **A chatbot is more than a model**: WebbGPT showed that the model itself is only one part of the system. The data pipeline, configs, grounding database, evaluations, export step, and serving app are all necessary for the assistant to actually work.
+- **Local testing matters**: Having debug and local-mvp profiles makes the project easier to develop because changes can be tested before running larger experiments. Without this distinction, I would be running week-long training sessions without any confirmation of whether a model looked good or not. This could slow iteration and progress to a crawl. 
+- **Grounding improves trust**: Connecting answers to Webb data and citations makes the assistant more useful because users can see where information came from instead of blindly trusting generated text. Thus, I wanted to make sure my data was clean and always trustable. 
 
-- **Local testing matters**: Having `debug` and `local-mvp` profiles makes the project easier to develop because changes can be tested before running larger experiments.
 
-- **Grounding improves trust**: Connecting answers to Webb data and citations makes the assistant more useful because users can see where information came from instead of blindly trusting generated text.
-
-<img src="images/webbgpt-status-page.png">
-<img src="images/webbgpt-tests.png">
 
 ## Reflection
 WebbGPT is a challenging project because it combines machine learning, data preparation, backend serving, evaluation, and school-specific knowledge. It is not just about making a chatbot respond; it is about making the entire system reproducible and trustworthy.
