@@ -51,7 +51,7 @@ layout: default
 
 <img src="images/webbgpt-levels.png">
 
-<div style="width: 90%; height: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
+<div style="width: 90%; height: 450px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
     src="files/studio-b-request.pdf" 
     width="100%" 
@@ -60,7 +60,7 @@ layout: default
   </iframe>
 </div>
 
-<div style="width: 90%; height: 300px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
+<div style="width: 90%; height: 450px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
     src="files/webbgpt-final-eval.pdf" 
     width="100%" 
@@ -73,7 +73,7 @@ layout: default
 - **Large training runs are expensive**: Training a serious language model can take a lot of compute, so the project uses smaller local profiles first. The debug profile proves the pipeline works, while local-mvp gives a local test to iterate and work on without having to worry about time.
 - **Quality vs complexity**: A model can appear to be learning through certain measurements but actually be failing generally. WebbGPT handles this by using evaluation files, validation data, test cases, experiment notes, and many qualitative samples that track problems like topic drift, semantic loops, and weak catalog accuracy.
 
-<div style="width: 90%; height: 700px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
+<div style="width: 90%; height: 600px; border: 1px solid #ccc; border-radius: 8px; overflow: hidden; margin: 20px 0;">
   <iframe 
     src="files/webbgpt-training.pdf" 
     width="100%" 
